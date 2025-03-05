@@ -63,13 +63,15 @@ class StoryMenuState extends MusicBeatState
 	final weekDescs:Map<String, String> = [
 		"Week Suicide" => "Description",
 		"Week Cheddar" => "Description_Cheddar",
-		"Week Julian" => "Description_Julian"
+		"Week Julian" => "Description_Julian",
+		"Week Oswald" => "Description_Oswald"
 	];
 
 	final weekTitles:Map<String, String> = [
 		"Week Suicide" => "Save the depressed mouse",
 		"Week Cheddar" => "Father_i_crave_cheddar",
-		"Week Julian" => "Brick_of_friendship"
+		"Week Julian" => "Brick_of_friendship",
+		"Week Oswald" => "Salvation_of_another"
 	];
 
 	var description:FlxSprite;
@@ -474,18 +476,25 @@ class StoryMenuState extends MusicBeatState
 	function weekIsLocked(name:String):Bool
 	{
 		var leWeek:WeekData = WeekData.weeksLoaded.get(name);
-		if (leWeek.fileName != 'Week Suicide' && !Progression.beatMainWeek)
+		if (leWeek.fileName == 'Week Julian' && !Progression.beatMainWeek)
 		{
 			return (true
 				&& leWeek.weekBefore.length > 0
 				&& (!weekCompleted.exists(leWeek.weekBefore) || !weekCompleted.get(leWeek.weekBefore)));
 		}
 		else
-		{
-			return (!leWeek.startUnlocked
-				&& leWeek.weekBefore.length > 0
-				&& (!weekCompleted.exists(leWeek.weekBefore) || !weekCompleted.get(leWeek.weekBefore)));
-		}
+			if (leWeek.fileName == 'Week Cheddar' && !Progression.beatMainWeek)
+				{
+					return (true
+						&& leWeek.weekBefore.length > 0
+						&& (!weekCompleted.exists(leWeek.weekBefore) || !weekCompleted.get(leWeek.weekBefore)));
+				}
+		else
+			{
+				return (!leWeek.startUnlocked
+					&& leWeek.weekBefore.length > 0
+					&& (!weekCompleted.exists(leWeek.weekBefore) || !weekCompleted.get(leWeek.weekBefore)));
+			}
 	}
 
 	function updateText()

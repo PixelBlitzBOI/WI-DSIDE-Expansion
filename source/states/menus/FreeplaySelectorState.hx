@@ -39,15 +39,17 @@ class FreeplaySelectorState extends MusicBeatState
 	var camFollowPos:FlxObject;
 
 	// image name
-	var items:Array<String> = ["menu_suicide", "menu_julian", "menu_cheddar", "menu_sus", "covers", "extras"];
+	var items:Array<String> = ["menu_suicide", "menu_julian", "menu_cheddar", "menu_oswald", "menu_sus", "covers", "extras", "menu_tribute"];
 
 	var weeks:Array<Array<String>> = [
 		["Week Suicide", "Week Suicide P2"],
 		["Week Julian"],
 		["Week Cheddar"],
+		["Week Oswald", "Week Oswald P2"],
 		["Week SUS"],
 		["Covers"],
-		["Extra Songs"]
+		["Extra Songs"],
+		["Oswald Tribute"]
 	];
 
 	override function create()
@@ -102,9 +104,12 @@ class FreeplaySelectorState extends MusicBeatState
 			{
 				case "menu_sus":
 					newItem.setGraphicSize(Std.int(newItem.width * 0.6));
+				case "menu_oswald":
+					newItem.setGraphicSize(Std.int(newItem.width * 0.75));
 				default:
 					newItem.setGraphicSize(Std.int(newItem.width * 0.55));
 			}
+
 
 			menuItems.add(newItem);
 		}
@@ -226,6 +231,10 @@ class FreeplaySelectorState extends MusicBeatState
 				else
 				{
 					camFollow.setPosition(700, 350);
+				}
+				if (spr.ID >= 6)
+				{
+					camFollow.setPosition(700, 1760);
 				}
 			}
 		});

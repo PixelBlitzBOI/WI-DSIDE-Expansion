@@ -308,7 +308,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'discord')
 				{
-					CoolUtil.browserLoad('https://discord.gg/KYGJvPkN8C');
+					CoolUtil.browserLoad('https://discord.com/invite/qztEdSGZBJ');
 				}
 				else if (!Progression.beatMainWeek && optionShit[curSelected] == 'freeplay')
 				{
