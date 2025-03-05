@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				14
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SAD DEMON LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-38
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SAD DEMON DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SAD DEMON UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SAD DEMON IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SAD DEMON RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				234,
+				310
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "SAD DEMON JUJUJUJA"
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/Waton_Tristis_Fabula",
+	"position": [
+		20,
+		235
+	],
+	"healthicon": "skinnywaton",
+	"flip_x": false,
+	"healthbar_colors": [
+		129,
+		114,
+		114
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

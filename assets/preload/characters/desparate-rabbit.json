@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Oswald Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				-8
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "OSWALD RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				-19
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Oswald Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "OSWALD IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Oswald Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-56,
+				26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "sad",
+			"indices": [],
+			"name": "OSWALD SAD"
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/desparate_rabbit",
+	"position": [
+		-178,
+		-10
+	],
+	"healthicon": "eagerness-rabbit",
+	"flip_x": false,
+	"healthbar_colors": [
+		81,
+		84,
+		81
+	],
+	"camera_position": [
+		-50,
+		30
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

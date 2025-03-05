@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				210,
+				-40
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SUICIDE OSWALD IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				155,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SUICIDE OSWALD DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				148
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SUICIDE OSWALD UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				-80
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SUICIDE OSWALD RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SUICIDE OSWALD LEFT",
+			"indices": []
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/OSWALD_SUICIDE_HELL",
+	"position": [
+		130,
+		100
+	],
+	"healthicon": "oswald-suicide",
+	"flip_x": false,
+	"healthbar_colors": [
+		73,
+		72,
+		73
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-8,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Oswald Left"
+		},
+		{
+			"offsets": [
+				-53,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "OSWALD RIGHT"
+		},
+		{
+			"offsets": [
+				45,
+				-21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Oswald Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "OSWALD IDLE"
+		},
+		{
+			"offsets": [
+				-4,
+				-58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Oswald Down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-10
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "OSWALD SAD",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Oswald",
+	"position": [
+		-120,
+		-10
+	],
+	"healthicon": "eagerness-rabbit",
+	"flip_x": false,
+	"healthbar_colors": [
+		81,
+		84,
+		81
+	],
+	"camera_position": [
+		0,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

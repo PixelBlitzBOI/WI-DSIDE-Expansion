@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				18,
+				-132
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SATAN RIGHT"
+		},
+		{
+			"offsets": [
+				39,
+				-171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SATAN DOWN"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				392,
+				-22
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SATAN LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SATAN IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				171,
+				65
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SATAN UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "laugh",
+			"loop": false,
+			"name": "SAD DEMON JUJUJUJA"
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/Waton_Tristis_Fabula",
+	"position": [
+		-350,
+		-305
+	],
+	"healthicon": "waton",
+	"flip_x": false,
+	"healthbar_colors": [
+		87,
+		69,
+		69
+	],
+	"camera_position": [
+		10,
+		110
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1.2
+}

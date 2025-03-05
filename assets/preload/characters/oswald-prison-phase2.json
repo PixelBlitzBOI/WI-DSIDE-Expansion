@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-130
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MAD MIKI IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-160
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "MAD MIKI RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				-152
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "MAD MIKI LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-99,
+				-180
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MAD MIKI UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-63,
+				-143
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MAD MIKI DOWN",
+			"indices": []
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/Oswald_Prison",
+	"position": [
+		100,
+		122
+	],
+	"healthicon": "eagerness-rabbit",
+	"flip_x": true,
+	"healthbar_colors": [
+		81,
+		84,
+		81
+	],
+	"camera_position": [
+		-160,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				30,
+				-140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "OSWALD IDLE"
+		},
+		{
+			"offsets": [
+				5,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Oswald Down"
+		},
+		{
+			"offsets": [
+				-100,
+				-122
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Oswald Up"
+		},
+		{
+			"offsets": [
+				300,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "OSWALD RIGHT"
+		},
+		{
+			"offsets": [
+				-50,
+				-107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Oswald Left"
+		}
+	],
+	"dataType": "JSON",
+	"no_antialiasing": false,
+	"image": "characters/OSWALD PHASE 1",
+	"position": [
+		170,
+		60
+	],
+	"healthicon": "Oswald",
+	"flip_x": false,
+	"healthbar_colors": [
+		83,
+		85,
+		82
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

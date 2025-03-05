@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-110
+			],
+			"anim": "laugh",
+			"fps": 18,
+			"name": "laugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				97
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "Mouse Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-89
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "Mouse Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-136,
+				-45
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "Mouse Rigth",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "Mouse Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				20
+			],
+			"anim": "idle",
+			"fps": 18,
+			"name": "Mouse idle",
+			"indices": []
+		}
+	],
+	"dataType": "SPARROW",
+	"no_antialiasing": false,
+	"image": "characters/HAPPY_RABBIT",
+	"position": [
+		-200,
+		70
+	],
+	"healthicon": "happy-rabbit",
+	"flip_x": false,
+	"healthbar_colors": [
+		81,
+		84,
+		81
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
