@@ -1,9 +1,9 @@
-## Wednesday's Infidelity: D-Side Expansion
+## Wednesday's Infidelity: D-Sides Expansion
 For info on usage rights, please read the [license](https://github.com/lunarcleint/Wednesdays-Infidelity-PART-2/blob/master/LICENSE)!
 
 ![](art/promoart.png)
 
-[Join W.I. D-Side Expansion's discord server!](https://discord.gg/qztEdSGZBJ)
+[Join W.I. D-Sides Expansion's discord server!](https://discord.gg/qztEdSGZBJ)
 
 ## Documenation
 - [Building the game](#building-instructions)
