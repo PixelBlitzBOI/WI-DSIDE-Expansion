@@ -11,7 +11,8 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
 
-## 0.5.2h Specitic Libraries:
+## 0.5.2h and W.I. Specific Building Libraries:
+**0.5.2h SPECIFIC BUILDING LIBRARIES**
 Run these commands:
 ```
 haxelib set flixel 4.11.0
