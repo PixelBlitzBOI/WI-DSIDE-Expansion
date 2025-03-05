@@ -146,6 +146,16 @@ class ChartingState extends MusicBeatState
 		['camGame Off', "."],
 		['Trompeta Diablo Leakers', "."],
 		['Idle Diablo Leakers', "."],
+		['camGame On', "."],
+		['Cinematic Bars (High)', "."],
+		['Cinematic Bars (Low)', "."],
+		['Remove Cinematic Bars', "."],
+		['hud fade out', "die hud die."],
+		['hud fade out (leave notes)', "not you, you stay."],
+		['hud fade in (only notes)', "."],
+		['hud fade in', "you're hired again, pls come back mr. hud man, uhhh, uwu."],
+		['blackFuck Flash', "Flash Black but with blackFuck."]
+
 	];
 
 	var _file:FileReference;
