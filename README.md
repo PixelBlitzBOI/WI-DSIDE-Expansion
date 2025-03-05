@@ -3,7 +3,6 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 
 ![](art/promoart.png)
 
-[Join W.I. D-Sides Expansion's discord server!](https://discord.gg/qztEdSGZBJ)
 
 ## Documenation
 - [Building the game](#building-instructions)
