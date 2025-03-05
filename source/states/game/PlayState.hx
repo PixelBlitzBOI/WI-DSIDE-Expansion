@@ -140,6 +140,7 @@ class PlayState extends MusicBeatState
 
 	public var vocals:FlxSound;
 	public var satanLaugh:FlxSound;
+	public var tenebraeLaugh:FlxSound;
 
 	public var dad:Character = null;
 	public var gf:Character = null;
@@ -263,6 +264,8 @@ class PlayState extends MusicBeatState
 
 	// WENSDAY INF
 	var devil:FlxAnimate;
+	var tenebraedevil:FlxAnimate;
+	var watondevil:FlxAnimate;
 	var jumps:FlxSprite;
 	var grain:FlxSprite;
 
@@ -309,6 +312,11 @@ class PlayState extends MusicBeatState
 	// Vesania
 	var satanBG:FlxSprite;
 	var smallDemons:FlxSprite;
+
+	// Dimensions
+	var voidBG:FlxSprite;
+	var platformL:BGSprite;
+	var platformR:BGSprite;
 
 	var danceLeft:Bool = false; // weird ik but ig it works
 	var trumpetsPlaying:Bool = false; // sexo
@@ -377,6 +385,14 @@ class PlayState extends MusicBeatState
 			bfZoom: 1, // mushitsection == true
 			dadZoom: 0.8, // mushitsection == false
 			gfZoom: 0.65 // gfsection == true
+		},
+		"stage" => {
+			dadPos: [420.95, 513],
+			bfPos: [952.95, 513],
+			gfPos: [0, 0],
+			bfZoom: 0.6,
+			dadZoom: 0.6,
+			gfZoom: 0.6
 		},
 		"hell" => {
 			dadPos: [420.95, 283], // xx
@@ -670,31 +686,6 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'stage': // Week 1
-				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
-				add(bg);
-
-				var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
-				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-				stageFront.updateHitbox();
-				add(stageFront);
-
-				var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
-				stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
-				stageLight.updateHitbox();
-				add(stageLight);
-
-				var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
-				stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
-				stageLight.updateHitbox();
-				stageLight.flipX = true;
-				add(stageLight);
-
-				var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
-				stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
-				stageCurtains.updateHitbox();
-				add(stageCurtains);
-
 			case 'vecindario': // Week Suicide
 				var sexi:BGSprite = new BGSprite('backgrounds/VecindarioBG', -600, -200);
 				sexi.antialiasing = ClientPrefs.globalAntialiasing;
@@ -710,6 +701,26 @@ class PlayState extends MusicBeatState
 				bg.antialiasing = ClientPrefs.globalAntialiasing;
 				bg.updateHitbox();
 				add(bg);
+
+			case 'stage':
+                platformL = new BGSprite('backgrounds/dimensions/Lplatform', -450, 450);
+				platformR = new BGSprite('backgrounds/dimensions/Rplatform', 450, 450);
+
+				voidBG = new FlxSprite();
+				voidBG.frames = Paths.getJSONAtlas('backgrounds/dimensions/void');
+				voidBG.scale.set(1, 1);
+				voidBG.updateHitbox();
+				voidBG.setPosition(-1500, -600);
+				voidBG.animation.addByPrefix('idle', 'void', 24, true);
+				voidBG.scrollFactor.set(1.05, 1.05);
+				voidBG.antialiasing = ClientPrefs.globalAntialiasing;
+				voidBG.scale.set(1,1);
+				voidBG.animation.play('idle');
+				
+                add(voidBG);
+				add(platformL);
+				add(platformR);
+			
 			case 'chedder': // Week Chedder
 				chedderguybg = new BGSprite('backgrounds/BG_CHEDDER', -658, -280);
 				add(chedderguybg);
@@ -948,7 +959,7 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{ // did another switch for stages here just to make sure it layers properly and it looks clean!! :P
 			case 'vecindario' | 'chedder' | 'reefer' | 'bobux' | 'toyland' | 'inferno' | 'susNightmare' | 'vecindariocover' | 'hell' | 'fence' |
-				'jankacStage' | 'vesania': // add stage name here to give it the cool static effect
+				'jankacStage' | 'vesania' | 'stage': // add stage name here to give it the cool static effect
 				var daStatic:FlxSprite = new FlxSprite(0, 0);
 				daStatic.frames = Paths.getSparrowAtlas('daSTAT', 'shared');
 				daStatic.setGraphicSize(FlxG.width, FlxG.height);
@@ -1004,24 +1015,56 @@ class PlayState extends MusicBeatState
 				add(pipipis);
 		}
 
+		tenebraedevil = new FlxAnimate(0, 0, switch (PlayState.SONG.stage)
+		{
+			default:
+				"shared:assets/shared/images/SATAN VOID";
+
+			});
+
+		tenebraedevil.anim.addBySymbol("scape", "SATANN", 24, false);
+		tenebraedevil.antialiasing = true;
+		tenebraedevil.cameras = [camOther];
+		tenebraedevil.alpha = 0.0001;
+		add(tenebraedevil);
+        
+		tenebraeLaugh = new FlxSound().loadEmbedded(Paths.sound('tenebrae_laugh'));
+		FlxG.sound.list.add(tenebraeLaugh);
+
 		devil = new FlxAnimate(0, 0, switch (PlayState.SONG.stage)
 		{
 			case "susNightmare":
 				"shared:assets/shared/images/SATAN AMONGUS";
+
 			case "fence":
 				"shared:assets/shared/images/SATAN DSIDES";
+
 			default:
 				"shared:assets/shared/images/SATAN";
-		});
+
+			});
 
 		devil.anim.addBySymbol("scape", "SATANN", 24, false);
 		devil.antialiasing = true;
 		devil.cameras = [camOther];
 		devil.alpha = 0.0001;
 		add(devil);
-
+        
 		satanLaugh = new FlxSound().loadEmbedded(Paths.sound('devil_laugh'));
 		FlxG.sound.list.add(satanLaugh);
+
+		watondevil = new FlxAnimate(0, 0, switch (PlayState.SONG.stage)
+		{
+			default:
+				"shared:assets/shared/images/SATAN DSIDES";
+
+			});
+
+		watondevil.anim.addBySymbol("scape", "SATANN", 24, false);
+		watondevil.antialiasing = true;
+		watondevil.cameras = [camOther];
+		watondevil.alpha = 0.0001;
+		add(watondevil);
 
 		blackBack = new FlxSprite(FlxG.width * -0.5, FlxG.height * -0.5);
 		blackBack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
@@ -1251,7 +1294,26 @@ class PlayState extends MusicBeatState
 		startingSong = true;
 
 		var daSong:String = Paths.formatToSongPath(curSong);
+        
+		if (isStoryMode)
+		{
+			switch (daSong)
+			{
+				case 'tristis-fabula':
+					fadeIn(0.8);
+				case 'untold-loneliness':
+					fadeIn(0.8);
+				
+				case 'vesper':
+					fadeIn(1);
 
+	 			case 'eternity':
+					fadeIn(1.5);
+
+				case 'life-on-hiatus':
+					fadeIn(0.6);
+			}
+		}
 		if (!seenCutscene)
 		{
 			if (isStoryMode)
@@ -1329,7 +1391,7 @@ class PlayState extends MusicBeatState
 					distort.shader.working.value = [false];
 
 					addShaderToCamera('camGame', distort);
-				case 'dejection':
+				case 'dejection', 'megrims', 'despondency':
 					distort = new util.Shaders.DistortionEffect(1, 1);
 
 					distort.shader.working.value = [false];
@@ -1575,10 +1637,11 @@ class PlayState extends MusicBeatState
 			// head bopping for bg characters on Mall
 			switch (curStage)
 			{
-				case 'vecindario' | 'bobux' | 'reefer' | 'inferno' | 'toyland' | 'chedder' | 'vecindariocover' | 'hell' | 'fence' | 'jankacStage': // make sure to also add the stage name here too
+				case 'vecindario' | 'bobux' | 'reefer' | 'inferno' | 'toyland' | 'chedder' | 'vecindariocover' | 'hell' | 'fence' | 'jankacStage' | 'stage': // make sure to also add the stage name here too
 					grain.alpha = 1;
 					grain.animation.play('idle');
-				case 'stageLeakers':
+
+            	case 'stageLeakers':
 					if (curBeat % 2 == 0)
 					{
 						osbaldo.animation.play('idle', true);
@@ -2374,6 +2437,11 @@ class PlayState extends MusicBeatState
 			weekMissesBar.visible = true;
 			weekMissesTxt.visible = true;
 		}
+		else if (isStoryMode && WeekData.getWeekFileName() == 'Week Oswald')
+		{
+            weekMissesBar.visible = true;
+			weekMissesTxt.visible = true;
+		}
 		else
 		{
 			weekMissesBar.visible = false;
@@ -2465,6 +2533,11 @@ class PlayState extends MusicBeatState
 		{
 			weekMissesTxt.text = 'Week Misses: ' + (weekMisses + songMisses);
 		}
+		else if (isStoryMode && WeekData.getWeekFileName() == 'Week Oswald')
+		{
+				weekMissesTxt.text = 'Week Misses: ' + (weekMisses + songMisses);
+		}
+	
 
 		if (botplayTxt.visible)
 		{
@@ -2507,41 +2580,47 @@ class PlayState extends MusicBeatState
 
 		if (controls.PAUSE && canPause && startedCountdown && !inCutscene)
 		{
-			if (isStoryMode)
+			if (isStoryMode && curSong != 'Life On Hiatus')
 				diablo();
+			else if (isStoryMode && curSong == 'Life On Hiatus')
+				waton();	
 			else
-			{
-				switch (PlayState.SONG.stage)
 				{
-					case "susNightmare" | "fence":
-						diablo();
-					default:
-						if (curSong == 'Hellhole')
+					switch (PlayState.SONG.stage)
+					{
+						case "susNightmare":
 							diablo();
-						else
-						{
-							persistentUpdate = false;
-							persistentDraw = true;
-							paused = true;
-
-							if (FlxG.sound.music != null)
+						default:
+							if (curSong == 'Hellhole')
+								diablo();
+							else if (curSong == 'Dimensions')
+								tenebrae();
+							else if (curSong == 'Life On Hiatus')
+								waton();
+							else
 							{
-								FlxG.sound.music.pause();
-								vocals.pause();
+								persistentUpdate = false;
+								persistentDraw = true;
+								paused = true;
+	
+								if (FlxG.sound.music != null)
+								{
+									FlxG.sound.music.pause();
+									vocals.pause();
+								}
+								openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
+	
+								#if desktop
+								#if PRIVATE_BUILD
+								DiscordClient.changePresence(detailsPausedText, "CLASSIFIED", 'face'); // make sure to remove for public build
+								#else
+								DiscordClient.changePresence(detailsPausedText, SONG.song, iconP2.getCharacter());
+								#end
+								#end
 							}
-							openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
-
-							#if desktop
-							#if PRIVATE_BUILD
-							DiscordClient.changePresence(detailsPausedText, "CLASSIFIED", 'face'); // make sure to remove for public build
-							#else
-							DiscordClient.changePresence(detailsPausedText, SONG.song, iconP2.getCharacter());
-							#end
-							#end
-						}
+					}
 				}
 			}
-		}
 
 		if (FlxG.keys.anyJustPressed(debugKeysChart) && !endingSong && !inCutscene)
 		{
@@ -3405,6 +3484,81 @@ class PlayState extends MusicBeatState
 
 			case 'camGame Off':
 				camGame.visible = false;
+
+// New Charting Events :D
+
+			case 'camGame On':
+				camGame.visible = true;
+
+			case 'Cinematic Bars (High)':
+				addCinematicBars(1);
+
+            case 'Cinematic Bars (Low)':
+				addCinematicBars(0.5);
+
+			case 'Remove Cinematic Bars':
+				removeCinematicBars(1);
+
+			case 'hud fade out':
+				FlxTween.tween(camHUD, {alpha: 0}, 1);
+				var arr = [
+					scoreGroup,
+					timeBar,
+					timeBarBG,
+				    timeTxt
+				];
+	
+				for (obj in arr)
+				{
+					FlxTween.tween(obj, {alpha: 0}, 1);
+				}
+
+			case 'hud fade out (leave notes)':
+				var arr = [
+					scoreGroup,
+					timeBar,
+					timeBarBG,
+					timeTxt
+				];
+	
+				for (obj in arr)
+				{
+					FlxTween.tween(obj, {alpha: 0}, 1);
+				}
+
+			case 'hud fade in (only notes)':
+				FlxTween.tween(camHUD, {alpha: 1}, 1);
+				var arr = [
+					scoreGroup,
+					timeBar,
+					timeBarBG,
+				    timeTxt
+				];
+	
+				for (obj in arr)
+				{
+					FlxTween.tween(obj, {alpha: 0}, 0.000000000000000000000000001);
+				}
+
+			case 'hud fade in':
+				FlxTween.tween(camHUD, {alpha: 1}, 1);
+				var arr = [
+					scoreGroup,
+					timeBar,
+					timeBarBG,
+				    timeTxt
+				];
+	
+				for (obj in arr)
+				{
+					FlxTween.tween(obj, {alpha: 1}, 1);
+				}
+			
+			case 'blackFuck Flash':
+				FlxTween.tween(blackFuck, {alpha: 1}, 0.00000000000000000000000000000000001);
+				FlxTween.tween(blackFuck, {alpha: 0}, 1);
+
+					
 		}
 	}
 
@@ -3615,6 +3769,21 @@ class PlayState extends MusicBeatState
 						}
 					}
 				}
+				if (WeekData.getWeekFileName() == 'Week Oswald')
+					{
+						if (!practiceMode)
+						{
+							switch (lastSong.toLowerCase())
+							{
+								case 'untold-loneliness' | 'untold loneliness':
+									storyPlaylist[storyPlaylist.length] = weekMisses >= 30 ? 'life-on-hiatus' : 'tristis-fabula';
+	
+									Progression.beatOswald = true;
+	
+									Progression.save();
+							}
+						}
+					}
 
 				storyPlaylist.remove(storyPlaylist[0]);
 
@@ -3658,6 +3827,19 @@ class PlayState extends MusicBeatState
 
 						Progression.save();
 					}
+					if (WeekData.getWeekFileName() == 'Week Oswald')
+						{
+							switch (Paths.formatToSongPath(SONG.song).toLowerCase())
+							{
+								case 'tristis fabula' | 'tristis-fabula':
+									Progression.goodEndingOswald = true;
+	
+								case 'life-on-hiatus':
+									Progression.badEndingOswald = true;
+							}
+	
+							Progression.save();
+						}
 
 					if (!practiceMode && !cpuControlled)
 					{
@@ -4213,7 +4395,6 @@ class PlayState extends MusicBeatState
 					char.specialAnim = true;
 				}
 			}
-
 			var daAlt = '';
 			if (daNote.noteType == 'Alt Animation')
 				daAlt = '-alt';
@@ -4224,9 +4405,14 @@ class PlayState extends MusicBeatState
 			var animToPlay:String = singAnimations[Std.int(Math.abs(daNote.noteData))] + 'miss' + daAlt;
 			if (!char.specialAnim)
 				char.playAnim(animToPlay, true);
+			
+			switch (boyfriend.curCharacter)
+			{
+				case 'oswald-player' | 'oswald-suicide-player':
+					triggerEventNote("Screen Shake", "0.2,0.008", "0.2,0.008");
+			}	
 		}
 	}
-
 	function noteMissPress(direction:Int = 1):Void // You pressed a key when there was no notes to press for this key
 	{
 		if (!boyfriend.stunned)
@@ -4315,16 +4501,16 @@ class PlayState extends MusicBeatState
 			switch (dad.curCharacter)
 			{
 				case 'mutant-mouse' | 'satan-mouse' | 'tiny-mouse-mad' | 'mouse-inferno' | 'mokey-sad-suicide' | 'jank' | 'satan' | 'smileeeeer' | 'suicide' |
-					'satan-chad' | 'oswald-suicide':
+					'satan-chad' | 'oswald-suicide' | 'waton':
 					triggerEventNote("Screen Shake", "0.2,0.008", "0.2,0.008");
-			}
+			}	
 
 			var notehealthdmg:Float = 0.00;
 
 			switch (dad.curCharacter)
 			{
 				case 'mutant-mouse' | 'satan-mouse' | 'tiny-mouse-mad' | 'mouse-inferno' | 'mokey-sad-suicide' | 'jank' | 'satan' | 'smileeeeer' | 'suicide' |
-					'mouse-phase2' | 'mouse-smile' | 'mouse-happy' | 'satan-chad' | 'oswald-suicide':
+					'mouse-phase2' | 'mouse-smile' | 'mouse-happy' | 'satan-chad' | 'oswald-suicide' | 'depressed-rabbit' | 'desparate-rabbit' | 'happy-rabbit' | 'oswald-suicide-hell' | 'waton':
 					notehealthdmg = 0.028;
 
 					if (health > 0.5)
@@ -4416,6 +4602,27 @@ class PlayState extends MusicBeatState
 		}
 	}
 
+	function tenebrae()
+		{
+			tenebraedevil.anim.play('scape', true);
+			tenebraedevil.alpha = 1;
+			tenebraeLaugh.play(true);
+			tenebraedevil.anim.onComplete = function()
+			{
+				tenebraedevil.alpha = 0.0001;
+			}
+		}
+
+	function waton()
+		{
+			watondevil.anim.play('scape', true);
+     		watondevil.alpha = 1;
+			satanLaugh.play(true);
+			watondevil.anim.onComplete = function()
+			{
+				watondevil.alpha = 0.0001;
+			}
+		}
 	function jump()
 	{
 		if (jumps == null)
@@ -5004,7 +5211,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		if (curSong == 'Dejection')
+		if (curSong == "Dejection")
 		{
 			switch (curStep)
 			{
@@ -5020,7 +5227,22 @@ class PlayState extends MusicBeatState
 					FlxTween.tween(camOther, {alpha: 0}, 3.5);
 			}
 		}
-
+		if (curSong == "Despondency")
+			{
+				switch (curStep)
+				{
+					case 642:
+						FlxTween.tween(camHUD, {alpha: 0}, 0.5);
+	
+					case 651:
+						FlxTween.tween(camHUD, {alpha: 1}, 0.5);
+	
+					case 1552:
+						FlxTween.tween(camHUD, {alpha: 0}, 3.5);
+						FlxTween.tween(camGame, {alpha: 0}, 3.5);
+						FlxTween.tween(camOther, {alpha: 0}, 3.5);
+				}
+			}
 		if (curSong == "Wistfulness" && ClientPrefs.shaders)
 		{
 			switch (curStep)
