@@ -7,7 +7,7 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 - [Building the game](#building-instructions)
 - [Debug features](#debug-features)
 - [Sprite sheet formats](#data-formats)
-- [New Charting Events](#-new-charting-events-(by-pixel!!!-:D))
+- [New Charting Events](#new-charting-events-(by-pixel!!!-:D))
 
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
