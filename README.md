@@ -98,5 +98,5 @@ I've added some new events for much easier charting! Now you won't have to do 1 
 - Hud Fade In (Only notes and healthbar)
 - Hud Fade In
 - blackFuck Flash (PRIVATE_BUILD tag replacement for Flash Black)
-- 
+
 **NOTE: there's literally no difference between Add Cinematic Bars (High) and (Low). Why? Because it's broken and I can't fix it! :D**
