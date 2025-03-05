@@ -44,7 +44,9 @@ With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](https://gith
 - Able to skip ANY cutscene/video playing
 - Automatticly hides Discord RPC
 - Able to toggle botplay
-- Able to skip the intro 
+- Able to skip the intro
+
+**HEY, PIXEL! THE ORIGINAL TAG IS `<define name="VIDEOS_ALOWED"/>` STOP FORGETTING 😭**
 
 ## Data Formats
 
@@ -77,3 +79,17 @@ Then put all of it into [Free Texture Packer](http://free-tex-packer.com/) with 
 ![](art/docs/setting.png)
 
 After you've made the sprite sheet look good, export the sprite sheet.
+
+## New Charting Events (by Pixel!!! :D)
+I've added some new events for much easier charting! Now you won't have to do 1 hour of unsuccessful coding using script.hx (even though i literally did that for half the mod XD).
+**Here are the new events I've added:**
+- camGame On
+- Add Cinematic Bars (High)
+- Add Cinematic Bars (Low)
+- Remove Cinematic Bars
+- Hud Fade Out
+- Hud Fade Out (Keep notes and healthbar)
+- Hud Fade In (Only notes and healthbar)
+- Hud Fade In
+- blackFuck Flash (PRIVATE_BUILD tag replacement for Flash Black)
+**NOTE: there's literally no difference between Add Cinematic Bars (High) and (Low). Why? Because it's broken and I can't fix it! :D**
