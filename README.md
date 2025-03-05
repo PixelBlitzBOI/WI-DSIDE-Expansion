@@ -50,6 +50,7 @@ With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](https://gith
 - Automatticly hides Discord RPC
 - Able to toggle botplay
 - Able to skip the intro
+
 **HEY, PIXEL! THE ORIGINAL TAG IS `<define name="VIDEOS_ALOWED"/>` STOP FORGETTING 😭**
 
 ## Data Formats
