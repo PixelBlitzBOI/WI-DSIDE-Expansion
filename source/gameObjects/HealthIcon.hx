@@ -72,6 +72,10 @@ class HealthIcon extends FlxSprite
 							iconOffsets[1] += 12.5;
 						case "rabiesOswald":
 							iconOffsets[1] += 15;
+						case "depressed-rabbit":
+							iconOffsets[1] += 100;
+						case "oswald-eternity":
+							iconOffsets[1] += 25;
 					}
 					updateHitbox();
 
@@ -96,6 +100,18 @@ class HealthIcon extends FlxSprite
 					updateHitbox();
 
 					antialiasing = ClientPrefs.globalAntialiasing;
+
+				case 'depressed-rabbit':
+					frames = Paths.getJSONAtlas('icons/$char');
+	
+				    animation.addByPrefix("losing", "angryish", 15, true, isPlayer);
+					animation.addByPrefix("idle", "idle", 15, true, isPlayer);
+					animation.play("losing");
+					this.char = char;
+
+					updateHitbox();
+
+					antialiasing = ClientPrefs.globalAntialiasing;
 			}
 		}
 	}
@@ -112,6 +128,16 @@ class HealthIcon extends FlxSprite
 					case "losing":
 						offset.x = -5;
 						offset.y = 10;
+				}
+			case 'depressed-rabbit':
+				switch (animation.name)
+				{
+					case "idle":
+						offset.x = -10;
+						offset.y = -35;
+					case "losing":
+						offset.x = -10;
+						offset.y = -35;
 				}
 			default:
 				offset.x = iconOffsets[0];
