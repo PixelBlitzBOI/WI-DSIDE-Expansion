@@ -7,11 +7,10 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 - [Building the game](#building-instructions)
 - [Debug features](#debug-features)
 - [Sprite sheet formats](#data-formats)
+- [New Charting Events](#-new-charting-events-(by-pixel!!!-:D))
 
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
-
-## 0.5.2h and W.I. Specific Building Libraries:
 
 **0.5.2h SPECIFIC BUILDING LIBRARIES**
 
@@ -49,7 +48,6 @@ With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](https://gith
 - Automatticly hides Discord RPC
 - Able to toggle botplay
 - Able to skip the intro
-
 **HEY, PIXEL! THE ORIGINAL TAG IS `<define name="VIDEOS_ALOWED"/>` STOP FORGETTING 😭**
 
 ## Data Formats
