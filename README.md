@@ -1,4 +1,4 @@
-## Friday Night Funkin' - Wednesday's Infidelity
+## Wednesday's Infidelity: D-Side Expansion
 For info on usage rights, please read the [license](https://github.com/lunarcleint/Wednesdays-Infidelity-PART-2/blob/master/LICENSE)!
 
 ![](art/promoart.png)
@@ -11,6 +11,14 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
 
+## 0.5.2h Specitic Libraries:
+Run these commands:
+```
+haxelib set flixel 4.11.0
+haxelib set flixel-addons 2.12.0
+haxelib set flixel-ui 2.5.0
+```
+**Make sure you're using Haxe 4.2.5!!**
 ****IMPORTANT W.I SPECIFIC BUILDING INSTRUCTIONS:****
 
 Run these commands: 
