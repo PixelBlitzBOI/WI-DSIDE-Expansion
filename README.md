@@ -7,7 +7,7 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 - [Building the game](#building-instructions)
 - [Debug features](#debug-features)
 - [Sprite sheet formats](#data-formats)
-- [New Charting Events](#new-charting-events-(by-pixel!!!-:D))
+- [New Charting Events](#new-charting-events)
 
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
@@ -82,7 +82,7 @@ Then put all of it into [Free Texture Packer](http://free-tex-packer.com/) with 
 
 After you've made the sprite sheet look good, export the sprite sheet.
 
-## New Charting Events (by Pixel!!! :D)
+## New Charting Events
 I've added some new events for much easier charting! Now you won't have to do 1 hour of unsuccessful coding using script.hx (even though i literally did that for half the mod XD).
 **Here are the new events I've added:**
 - camGame On
