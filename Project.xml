@@ -26,6 +26,7 @@
 		COMMENT IN FINAL BUILD!!!
 	-->
 	<!--<define name="PRIVATE_BUILD"/> -->
+	<!-- HEY IDIOT! THE DEFAULT IS <define name="VIDEOS_ALLOWED"> -->
 
 	<define name="VIDEOS_ALLOWED" if="windows" unless="32bits"/>
 
