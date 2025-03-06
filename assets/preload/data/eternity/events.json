@@ -1,0 +1,164 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "fence",
+		"player1": "bf-dsides-portal",
+		"player2": "oswald-eternity",
+		"player3": null,
+		"events": [
+			[
+				17454.5454545455,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				31636.3636363637,
+				[
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			],
+			[
+				34909.0909090909,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				49090.9090909091,
+				[
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			],
+			[
+				52363.6363636364,
+				[
+					[
+						"camHud & camera Off",
+						"",
+						""
+					]
+				]
+			],
+			[
+				53863.6363636364,
+				[
+					[
+						"camHud & camera On",
+						"0",
+						""
+					],
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			],
+			[
+				54545.4545454546,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				80727.2727272727,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				89454.5454545454,
+				[
+					[
+						"Flash Black",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				103636.363636364,
+				[
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			],
+			[
+				106909.090909091,
+				[
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			],
+			[
+				109090.909090909,
+				[
+					[
+						"Fade Cameras",
+						"0",
+						"2.17"
+					]
+				]
+			],
+			[
+				111272.727272727,
+				[
+					[
+						"camHud & camera Off",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-invisible",
+		"bpm": 110,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Eternity"
+	}
+}

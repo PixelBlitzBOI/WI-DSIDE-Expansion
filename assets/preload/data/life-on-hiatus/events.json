@@ -1,0 +1,149 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "inferno",
+		"player1": "bf-dsides",
+		"player2": "happy-rabbit",
+		"player3": null,
+		"events": [
+			[
+				30453.0456852792,
+				[
+					[
+						"Flash White",
+						"",
+						""
+					]
+				]
+			],
+			[
+				30456.8527918782,
+				[
+					[
+						"Change Character",
+						"dad",
+						"oswald-suicide-hell"
+					]
+				]
+			],
+			[
+				57868.0203045686,
+				[
+					[
+						"Change Character",
+						"1",
+						"oswald-gun"
+					],
+					[
+						"Play Animation",
+						"intro",
+						"dad"
+					]
+				]
+			],
+			[
+				59695.4314720812,
+				[
+					[
+						"Flash White",
+						"",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"oswald-suicide"
+					]
+				]
+			],
+			[
+				100431.472081218,
+				[
+					[
+						"Play Animation",
+						"spaw",
+						"gf"
+					]
+				]
+			],
+			[
+				101116.751269036,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf-dsides-satan"
+					]
+				]
+			],
+			[
+				141319.796954315,
+				[
+					[
+						"Flash White",
+						"",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-alt"
+					]
+				]
+			],
+			[
+				141395.939086294,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf-dsides"
+					]
+				]
+			],
+			[
+				219289.340101523,
+				[
+					[
+						"camHud & camera Off",
+						"",
+						""
+					]
+				]
+			],
+			[
+				220507.614213198,
+				[
+					[
+						"Flash White",
+						"",
+						""
+					],
+					[
+						"camHud & camera On",
+						"",
+						""
+					]
+				]
+			],
+			[
+				280203.045685279,
+				[
+					[
+						"Flash Black",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "waton-life-on-hiatus",
+		"bpm": 197,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Life On Hiatus"
+	}
+}
