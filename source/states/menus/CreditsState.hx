@@ -57,6 +57,88 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [
 			// Name - Icon name - Description - Link - BG Color
+            /*
+[
+				'',
+				'',
+				"",
+				'',
+				''
+			],
+			*/
+			['W.I. D-Sides Expansion Team'],
+			[
+				'PixelBlitzBOI',
+				'pixelblitzboi',
+				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, and Dimensions musician.",
+				'https://youtube.com/@PixelBlitzBOI',
+				'4d3942'
+			],
+			[
+				'Richilix',
+				'none',
+				"Main sprite artist and animator of the mod. Charter of Despair, Despondency, Eternity, and Life on Hiatus.",
+				'https://www.youtube.com/@Richilix_',
+				'42394d'
+			],
+			[
+				'Adam McHummus',
+				'Adam',
+				"Despondency musician.",
+				'https://www.youtube.com/channel/UCj1F2IQFcqZqfuyljtxgpXQ',
+				"4287f5"
+			],
+			[
+				'Funtime Nero',
+				'none',
+				"Despair, and Eternity musician.",
+				'https://www.youtube.com/@FuntimeNero',
+				'692962'
+			],
+			[
+				'doge1smlg',
+				'none',
+				"Vesper Musician.",
+				'https://www.youtube.com/@doge1smlg',
+				'593f36'
+			],
+			[
+				'Average Alligator',
+				'none',
+				"Eagerness full version musician.",
+				'https://www.youtube.com/@AverageAlligator',
+				'515936'
+			],
+			['W.I.D.S.E. Special Thanks'],
+			[
+				"Sandi",
+				"Sandi",
+				"Eagerness, Megrims, and Untold Loneliness musician.",
+				"https://www.twitter.com/Sandi334_",
+				"eaeaea"
+			],
+			[
+				'VibeWithGalaxy',
+				'none',
+				"Original Wistfulness D-Sides concept art.",
+				'https://x.com/VibeWithGalaxy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+				'071336'
+			],
+			[
+				"Marco Antonio",
+				'Marco',
+				'Original Megrims concept art.',
+				'https://twitter.com/MarcoJurez19',
+				"f5d482"
+			],
+			[
+				'Jhaix',
+				'Jhaix',
+				'Director of W.I. (Thank you for making peak!).',
+				'https://twitter.com/Jhaix3',
+				'e2d4ce'
+			],
+			[''],
 			["Wednesday's Infidelity Team"],
 			[
 				'Jhaix',
