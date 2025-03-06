@@ -63,42 +63,42 @@ class CreditsState extends MusicBeatState
 				"pixelblitzboi",
 				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, and Dimensions musician.",
 				"https://youtube.com/@PixelBlitzBOI",
-				"#4d3942"
+				"4d3942"
 			],
 			[
 				'Richilix',
 				"none",
 				'Main sprite artist and animator of the mod. Charter of Despair, Despondency, Eternity, and Life on Hiatus.',
 				'https://www.youtube.com/@Richilix_',
-				'#42394d'
+				'42394d'
 			],
 			[
 				'Adam McHummus',
 				'Adam',
 				'Despondency musician.',
 				'https://www.youtube.com/channel/UCj1F2IQFcqZqfuyljtxgpXQ',
-				"#4287f5"
+				"4287f5"
 			],
 			[
 				'Funtime Nero',
 				"none",
 				'Despair, and Eternity musician.',
 				'https://www.youtube.com/@FuntimeNero',
-				'#692962'
+				'692962'
 			],
 			[
 				'doge1smlg',
 				"none",
 				'Vesper Musician.',
 				'https://www.youtube.com/@doge1smlg',
-				'#593f36'
+				'593f36'
 			],
 			[
 				'Average Alligator',
 				"none",
 				'Eagerness full version musician.',
 				'https://www.youtube.com/@AverageAlligator',
-				'#515936'
+				'515936'
 			],
 			[''],
 			['W.I.D.S.E. Special Thanks'],
@@ -107,28 +107,28 @@ class CreditsState extends MusicBeatState
 				"Sandi",
 				"Eagerness, Megrims, and Untold Loneliness musician.",
 				"https://www.twitter.com/Sandi334_",
-				"#eaeaea"
+				"eaeaea"
 			],
 			[
 				'VibeWithGalaxy',
 				"none",
 				'Original Wistfulness D-Sides concept art.',
 				'https://x.com/VibeWithGalaxy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
-				'#071336'
+				'071336'
 			],
 			[
 				"Marco Antonio",
 				'Marco',
 				'Original Megrims concept art.',
 				'https://twitter.com/MarcoJurez19',
-				"#f5d482"
+				"f5d482"
 			],
 			[
 				'Jhaix',
 				'Jhaix',
 				'Director of W.I. (Thank you for making peak!).',
 				'https://twitter.com/Jhaix3',
-				'#e2d4ce'
+				'e2d4ce'
 			],
 			[''],
 			["Wednesday's Infidelity Team"],
@@ -137,46 +137,46 @@ class CreditsState extends MusicBeatState
 				'Jhaix',
 				'Director & Creator, Main Musician',
 				'https://twitter.com/Jhaix3',
-				'#e2d4ce'
+				'e2d4ce'
 			],
 			[
 				'Nugget',
 				'Nugget',
 				'Co Director, Icon, Thumbail, Logo and Sprite Artist',
 				'https://twitter.com/NuggetNightmare',
-				'#6e034b'
+				'6e034b'
 			],
 			[
 				'Cape',
 				'Cape',
 				'Main charter of 13 songs and Coder',
 				'https://twitter.com/c4peletini',
-				'#242846'
+				'242846'
 			],
 			[
 				'Zero',
 				'Zero',
 				'Story Writer, Art Director, Sprite Artist and BG Artist',
 				'https://twitter.com/zero_artist02',
-				'#003333'
+				'003333'
 			],
 			[
 				'Kass8tto',
 				'Kass8tto',
 				'Part 1 background artist and part 2 among us sprite artist',
 				'https://twitter.com/Kass8tto',
-				'#cccccc'
+				'cccccc'
 			],
 			[
 				"Marco Antonio",
 				'Marco',
 				'Among us sprite animator and oswald album artist',
 				'https://twitter.com/MarcoJurez19',
-				"#f5d482"
+				"f5d482"
 			],
-			['Lunar', 'Lunar', 'Main Programmer', 'https://twitter.com/lunarcleint', '#6757f3'],
-			['Jloor', 'jloor', 'Programmer', 'https://twitter.com/GamerJloor', '#fdc4ad'],
-			["Royal", 'Royal', 'Programmer', 'https://twitter.com/CoderRoyal', "#e3baf7"],
+			['Lunar', 'Lunar', 'Main Programmer', 'https://twitter.com/lunarcleint', '6757f3'],
+			['Jloor', 'jloor', 'Programmer', 'https://twitter.com/GamerJloor', 'fdc4ad'],
+			["Royal", 'Royal', 'Programmer', 'https://twitter.com/CoderRoyal', "e3baf7"],
 			[
 				"Sandi",
 				"Sandi",
@@ -189,45 +189,45 @@ class CreditsState extends MusicBeatState
 				'Awe',
 				'U.S, Versiculus Iratus, Needlemouse and Leak ma balls musician.',
 				'https://twitter.com/GoddessAwe',
-				"#3e2c6b"
+				"3e2c6b"
 			],
 			[
 				"Lean",
 				'Lean',
 				'Musician, Coder, Animation Helper, and Sound Effects',
 				'https://twitter.com/NewLeandapper',
-				"#816954"
+				"816954"
 			],
 			[
 				"Flaconadir",
 				'Flaco',
 				'Cheddar week musician. Mickey and Oswald VA',
 				'https://youtube.com/c/Flaconadir',
-				"#9b2526"
+				"9b2526"
 			],
-			["Yirius", 'Yirius', 'Extra Coder', 'https://twitter.com/Yirius125', "#7d5327"],
+			["Yirius", 'Yirius', 'Extra Coder', 'https://twitter.com/Yirius125', "7d5327"],
 			[
 				"ReddudeXD",
 				'Reddude',
 				"Kriman't Musician and Artist",
 				'https://twitter.com/reddudemodderxd',
-				"#c9514b"
+				"c9514b"
 			],
 			[
 				"iKenny",
 				'Kenny',
 				'Carnival in Toyland Musician',
 				'https://twitter.com/KennyL_UwU',
-				"#7d5327"
+				"7d5327"
 			],
 			[
 				"Tok",
 				'Tok',
 				'Charter and Mokey Icon Artist',
 				'https://twitter.com/ThatOne_Kid39',
-				"#725980"
+				"725980"
 			],
-			['KINGF0X', 'Kingfox_', 'Voice actor', 'https://twitter.com/VOKINGF0X', '#8f040b'],
+			['KINGF0X', 'Kingfox_', 'Voice actor', 'https://twitter.com/VOKINGF0X', '8f040b'],
 			[''],
 			["Special Thanks"],
 			[
@@ -235,42 +235,42 @@ class CreditsState extends MusicBeatState
 				'Adam',
 				'Corpse Base Musician',
 				'https://www.youtube.com/channel/UCj1F2IQFcqZqfuyljtxgpXQ',
-				"#4287f5"
+				"4287f5"
 			],
 			[
 				"FNF D-SIDES TEAM",
 				'D-side credits ',
 				'Using the D-Sides Concept for Oswald',
 				'https://gamebanana.com/mods/305122',
-				"#dee4ff"
+				"dee4ff"
 			],
 			[
 				"FNF Antipathy TEAM",
 				'Cover credits',
 				'Originally made Battered',
 				'https://gamebanana.com/mods/325348',
-				"#dee4ff"
+				"dee4ff"
 			],
 			[
 				"KaranXD",
 				'Cover credits',
 				'Made the remixed Accelerant Instrumental used here',
 				'https://twitter.com/karanxd_',
-				"#dee4ff"
+				"dee4ff"
 			],
 			[
 				"FNF Online VS. TEAM",
 				'Cover credits',
 				'Originally made Accelerant',
 				'https://gamebanana.com/mods/286594',
-				"#dee4ff"
+				"dee4ff"
 			],
 			[
 				"FNF VS Sonic.EXE TEAM",
 				'Cover credits',
 				'Originally made Too Slow Encore',
 				'https://gamebanana.com/mods/316022',
-				"#dee4ff"
+				"dee4ff"
 			],
 			["Coder Special Thanks"],
 			[
@@ -278,21 +278,21 @@ class CreditsState extends MusicBeatState
 				"none",
 				"I stole alot of shaders:\nhttps://www.shadertoy.com/view/ldjGzV\nhttps://www.shadertoy.com/view/Ms3XWH\nhttps://www.shadertoy.com/view/XtK3W3",
 				"https://www.shadertoy.com/\nhttps://www.shadertoy.com/view/lds3WB",
-				"#ffffff"
+				"ffffff"
 			],
 			[
 				"Vs RetroSpector",
 				"none",
 				"I stole your chromatic abberation",
 				"https://gamebanana.com/mods/317366",
-				"#16d7e3"
+				"16d7e3"
 			],
 			[
 				"Yoshi Engine",
 				"none",
 				"I stole most of HScript.hx (and a little of GameStats.hx) lmao",
 				"https://twitter.com/FNFYoshiEngine",
-				"#6bd04b"
+				"6bd04b"
 			],
 			["47rooks", "none", "Literal Shader God", "https://github.com/47rooks", "e37b05"],
 			[
@@ -300,16 +300,16 @@ class CreditsState extends MusicBeatState
 				"none",
 				"Stole Bloom Shader",
 				"https://www.youtube.com/c/bbpanzuRulesSoSubscribeplz123",
-				"#238a07"
+				"238a07"
 			],
 			[
 				"Clowfoe",
 				'Clowfoe',
 				'being clowfoe',
 				'https://www.youtube.com/c/Clowfoe',
-				"#f54e42"
+				"f54e42"
 			],
-			['Kyz', 'Kyz', 'leaker', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', '#362526'],
+			['Kyz', 'Kyz', 'leaker', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', '362526'],
 		];
 
 		for (i in pisspoop)
