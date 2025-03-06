@@ -445,10 +445,10 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 36:
-					addMoreText("The wait is over");
+					addMoreText("It's his time to shine!");
 				// credTextShit.visible = true;
 				case 44:
-					addMoreText("Its finally here");
+					addMoreText("we present to you...");
 				// credTextShit.text += '\nlmao';
 				case 48:
 					deleteCoolText();

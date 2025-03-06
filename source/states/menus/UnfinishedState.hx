@@ -58,15 +58,15 @@ class UnfinishedState extends MusicBeatState
 
 		Lib.application.window.title = "Wednesday's Infidelity";
 
-		var warnText:FlxText = new FlxText(0, 850, FlxG.width, "This mod was leaked lmao".toUpperCase(), 21);
+		var warnText:FlxText = new FlxText(0, 850, FlxG.width, "Thank you for downloading!".toUpperCase(), 21);
 
-		warnText.setFormat("VCR OSD Mono", 80, FlxColor.YELLOW, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		warnText.setFormat("VCR OSD Mono", 80, FlxColor.PURPLE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(warnText);
 		warnText.screenCenter();
 		warnText.y -= 230;
 
 		var warnText2:FlxText = new FlxText(0, 850, FlxG.width,
-			"The mod has been leaked twice, the most recent being this monday where a member of the team had an anger attack and leaked a video of the new unfinished content of the mod, because of this we had to speed up the process and get it out quickly this wednesday. it will later receive a patch of the missing content, for now it will be receiving fixes in bugs and defective mechanics. \n\n\n\nPress Enter to Continue",
+			"Hey! PixelBlitzBOI here! Thank you for downloading Wednesday's Infidelity D-Sides Expansion! This project is not an official update to Wednesday's Infidelity and I'm in no way shape or form associated with Box Funkin' or anyone from the W.I. Team (although I do wish that was the case, lmao). I hope you enjoy the mod!. \n\n\n\nPress Enter to Continue",
 			21);
 
 		warnText2.setFormat("VCR OSD Mono", 35, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
