@@ -1,14 +1,14 @@
 // ALL LIBRARIES USED TO COMPILE THE GAME!!
 
-flixel=4.11.0
-flixel-addons=2.12.0
-flixel-ui=2.5.0
-flxanimate=1.2.0
-haxe=4.2.5
+/*IMPORTANT -> */flixel=4.11.0
+/*IMPORTANT -> */flixel-addons=2.12.0
+/*IMPORTANT -> */flixel-ui=2.5.0
+/*IMPORTANT -> */flxanimate=1.2.0
+/*IMPORTANT -> */haxe=4.2.5
 hscript=2.6.0
 hxCodec=2.5.1
 hxcpp=4.3.2
 hxp=1.2.2
-lime=8.0.2
-openfl=9.2.2
+/*IMPORTANT -> */lime=8.0.2
+/*IMPORTANT -> */openfl=9.2.2
 flixel-tools=1.5.1
