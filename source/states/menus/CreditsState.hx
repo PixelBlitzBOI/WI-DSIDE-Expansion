@@ -183,7 +183,7 @@ class CreditsState extends MusicBeatState
 				"f5d482"
 			],
 			['Lunar', 'Lunar', 'Main Programmer', 'https://twitter.com/lunarcleint', '6757f3'],
-			['Jloor', 'Jloor', 'Programmer', 'https://twitter.com/GamerJloor', 'fdc4ad'],
+			['Jloor', 'jloor', 'Programmer', 'https://twitter.com/GamerJloor', 'fdc4ad'],
 			["Royal", 'Royal', 'Programmer', 'https://twitter.com/CoderRoyal', "e3baf7"],
 			[
 				"Sandi",
