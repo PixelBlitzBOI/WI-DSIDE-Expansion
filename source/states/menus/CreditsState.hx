@@ -182,7 +182,7 @@ class CreditsState extends MusicBeatState
 				"Sandi",
 				"Hellhole, Untold Loneliness, Vesania and Spring March musician",
 				"https://www.twitter.com/Sandi334_",
-				"#eaeaea"
+				"eaeaea"
 			],
 			[
 				"Awe",
