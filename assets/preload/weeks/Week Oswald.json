@@ -1,0 +1,50 @@
+{
+	"storyName": "Salvation of another",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "oswald",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Eagerness",
+			"eagerness-rabbit",
+			[
+				43,
+				46,
+				40
+			]
+		],
+		[
+			"Megrims",
+			"depressed-rabbit",
+			[
+				43,
+				46,
+				40
+			]
+		],
+		[
+			"Untold Loneliness",
+			"oswald-suicide",
+			[
+				43,
+				46,
+				40
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"dad",
+		"dad"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week Oswald"
+}
