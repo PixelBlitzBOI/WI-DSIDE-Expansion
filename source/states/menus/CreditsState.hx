@@ -67,7 +67,7 @@ class CreditsState extends MusicBeatState
 			],
 			[
 				'Richilix',
-				'none',
+				"none",
 				'Main sprite artist and animator of the mod. Charter of Despair, Despondency, Eternity, and Life on Hiatus.',
 				'https://www.youtube.com/@Richilix_',
 				'#42394d'
@@ -81,21 +81,21 @@ class CreditsState extends MusicBeatState
 			],
 			[
 				'Funtime Nero',
-				'none',
+				"none",
 				'Despair, and Eternity musician.',
 				'https://www.youtube.com/@FuntimeNero',
 				'#692962'
 			],
 			[
 				'doge1smlg',
-				'none',
+				"none",
 				'Vesper Musician.',
 				'https://www.youtube.com/@doge1smlg',
 				'#593f36'
 			],
 			[
 				'Average Alligator',
-				'none',
+				"none",
 				'Eagerness full version musician.',
 				'https://www.youtube.com/@AverageAlligator',
 				'#515936'
@@ -111,7 +111,7 @@ class CreditsState extends MusicBeatState
 			],
 			[
 				'VibeWithGalaxy',
-				'none',
+				"none",
 				'Original Wistfulness D-Sides concept art.',
 				'https://x.com/VibeWithGalaxy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
 				'#071336'
