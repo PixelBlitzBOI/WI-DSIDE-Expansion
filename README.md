@@ -34,6 +34,8 @@ haxelib install hscript
 haxelib install hxCodec
 haxelib set hxCodec 2.5.1
 ```
+
+**all the other required liraries can be found [here](all-libraries.txt)**
 Or run the setup [bat](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/config.bat).
 (Decoded version available [here](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/config-source.bat)).
 
