@@ -32,7 +32,7 @@ Here's a list of new content added by WIDSE:
 (art for the Megrims and losing Eagerness/Despair icons are creditless)
 
 ### Oswald Tribute Week content
-- Charted Despair (song by Funtime Nero, chart by richilix)
+- Charted Despair (song by Funtime Nero, charted by richilix)
 - Charted Despondency remix (song by Adam/Madame McHummus, remix by PixelBlitzBOI)
 - Charted Eternity (song by Funtime Nero, charted by richilix)
 - Charted Vesper (song by doge1smlg chart by richilix)
