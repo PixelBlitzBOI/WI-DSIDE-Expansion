@@ -25,7 +25,7 @@ Here's a list of new content added by WIDSE:
 
 ### Oswald's Week content
 - Charted Eagerness (song by Sandi and fanmade full version by YourAverageAlligator, charted by PixelBlitzBOI)
-- Charted Megrims (song by Sandi + animated icon by PixelBlitzBOI)
+- Charted Megrims (song by Sandi + animated icon and charted by PixelBlitzBOI)
 - Charted Life On Hiatus (song by Reaper, charted by richilix and PixelBlitzBOI + different vocal mixing)
 - Charted Tristis Fabula (song and charted by PixelBlitzBOI)
 
