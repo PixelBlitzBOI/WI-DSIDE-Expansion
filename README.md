@@ -28,6 +28,7 @@ Here's a list of new content added by WIDSE:
 - Charted Megrims (song by Sandi + animated icon by PixelBlitzBOI)
 - Charted Life On Hiatus (song by Reaper, charted by richilix and PixelBlitzBOI + different vocal mixing)
 - Charted Tristis Fabula (song and charted by PixelBlitzBOI)
+
 (art for the Megrims and losing Eagerness/Despair icons are creditless)
 
 ### Oswald Tribute Week content
