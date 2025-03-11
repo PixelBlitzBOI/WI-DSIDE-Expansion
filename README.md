@@ -24,7 +24,7 @@ Here's a list of new content added by WIDSE:
 - Fixed Death screen (if your current character doesn't have a death anim, it will play the Retro BF death anim instead of the base game's original death anim.)
 
 ### Oswald's Week content
-- Charted Eagerness (song by Sandi and fanmade full version by YourAverageAlligator)
+- Charted Eagerness (song by Sandi and fanmade full version by YourAverageAlligator, charted by PixelBlitzBOI)
 - Charted Megrims (song by Sandi + animated icon by PixelBlitzBOI)
 - Charted Life On Hiatus (song by Reaper, charted by richilix and PixelBlitzBOI + different vocal mixing)
 - Charted Tristis Fabula (song and charted by PixelBlitzBOI)
