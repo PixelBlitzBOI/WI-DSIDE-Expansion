@@ -16,6 +16,6 @@ haxelib set hxp 1.2.2
 haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
 haxelib set flxanimate 1.2.0
 cls
-echo We are finished setting up your libraries! Press enter to quit
+echo We are finished setting up your libraries! Press any key to quit
 pause >nul
 exit
