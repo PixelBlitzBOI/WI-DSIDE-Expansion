@@ -5,10 +5,38 @@ For info on usage rights, please read the [license](https://github.com/lunarclei
 
 
 ## Documenation
+- [Introduction](#introduction)
+- [New Content](#new-content)
 - [Building the game](#building-instructions)
 - [Debug features](#debug-features)
 - [Sprite sheet formats](#data-formats)
 - [New Charting Events](#new-charting-events)
+
+### Introduction
+Wednesday's Infidelity D-Sides Expansion (or W.I.D.S.E./WIDSE) is a mod that expands the content of the original Wednesday's Infidelity and adds another week to the story mode and more songs! The mod is purely inspired by Untold Loneliness composed by Sandi and gives a full new week to Oswald alongside other songs and a few more things!
+
+### New Content
+
+# Here's a list of new content added by WIDSE
+- Oswald's Week
+- Oswald Tribute Week
+- New Charting Events
+- Fixed Death screen (if your current character doesn't have a death anim, it will play the Retro BF death anim instead of the base game's original death anim.)
+
+# Oswald's Week content
+- Charted Eagerness (song by Sandi and fanmade full version by YourAverageAlligator)
+- Charted Megrims (song by Sandi + animated icon by PixelBlitzBOI)
+- Charted Life On Hiatus (song by Reaper, charted by richilix and PixelBlitzBOI + different vocal mixing)
+- Charted Tristis Fabula (song and charted by PixelBlitzBOI)
+(art for the Megrims and losing Eagerness/Despair icons are creditless)
+
+# Oswald Tribute Week content
+- Charted Despair (song by Funtime Nero, chart by richilix)
+- Charted Despondency remix (song by Adam/Madame McHummus, remix by PixelBlitzBOI)
+- Charted Eternity (song by Funtime Nero, charted by richilix)
+- Charted Vesper (song by doge1smlg chart by richilix)
+- Charted Dimensions (song and charted by PixelBlitzBOI)
+
 
 ### Building Instructions:
 Follow the [Friday Night Funkin'](https://github.com/ninjamuffin99/Funkin#build-instructions) source code building guide.
