@@ -54,12 +54,14 @@ like this:
 Each index must be written above each sprite n id with a different name and must end with a <??> whenever ending an index list.
 
 e.g:
-``<?index indexName="Index1" indexType="xml"?>
+```
+<?index indexName="Index1" indexType="xml"?>
   <sprite n="Index10000" x="0" y="0" w="1" h="1"/>
   <sprite n="Index10001" x="1" y="1" w="1" h="1"/>
 <??>
 <?index indexName="Index2" indexType="xml"?>  <-- the names of the indexName sprite n= should match
   <sprite n="Index20000" x="0" y="0" w="0" h="0"/>
-<??>``
+<??>
+```
 
 Now all you need to do is to save the xml as a .runner file and you're done!
