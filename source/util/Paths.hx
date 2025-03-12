@@ -162,6 +162,11 @@ class Paths
 	{
 		return getPath('data/$key.json', TEXT, library);
 	}
+// Runner filetype
+	inline static public function runner(key:String, ?library:String)
+	{
+		return getPath('data/$key.runner', TEXT, library);
+	}
 
 	inline static public function hscript(key:String, ?library:String)
 	{
@@ -285,6 +290,12 @@ class Paths
 		return FlxAtlasFrames.fromTexturePackerJson(image(key, library), file('images/$key.json', library));
 	}
 
+	inline static public function getRUNNERAtlas(key:String, ?library:String)
+		{
+			return FlxAtlasFrames.fromTexturePackerJson(image(key, library), file('images/$key.runner', library));
+		}
+	
+
 	inline static public function formatToSongPath(path:String)
 	{
 		return path.toLowerCase().replace(' ', '-');
@@ -351,6 +362,8 @@ class Paths
 				return getPackerAtlas(key);
 			case JSON:
 				return getJSONAtlas(key);
+			case RUNNER:
+				return getRUNNERAtlas(key);
 		}
 	}
 }
