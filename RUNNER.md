@@ -13,9 +13,7 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TextureAtlas imagePath="image.png">
-
   <SubTexture name="image index0000" x="0" y="0" width="0" height="0"/>
 ```
 
@@ -23,13 +21,9 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
 
 ```
 <?runner version="1.0" encoding="UTF-8"?>
-
 <TextureAtlas imagePath="image.png" width="0" height="0" scale="1" format="RGBA8888" atlasType="runnerfile">
-
 <?index indexName="Index" indexType="xml"?>
-
   <sprite n="Index0000" x="0" y="0" w="0" h="0" pX="0.5" pY="0.5" oX="0" oY="0" oW="0" oH="0"/>
-
   <??>
  ```
 
@@ -50,6 +44,12 @@ like this:
 <TextureAtlas imagePath="Image.png" width="0" height="0" scale="0" format="RGBA8888" atlasType="runnerfile">``
 
 ### Index names
+
+Here's how a generic xml is written:
+```
+<TextureAtlas imagePath="image.png">
+  <SubTexture name="image index0000" x="0" y="0" width="0" height="0"/>
+ ```
 
 Each index must be written above each sprite n id with a different name and must end with a <??> whenever ending an index list.
 
