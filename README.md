@@ -66,8 +66,7 @@ haxelib install hxCodec
 haxelib set hxCodec 2.5.1
 ```
 
-Or run the setup [bat](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/config.bat).
-(Decoded version available [here](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/config-source.bat)).
+Or run the [setup bat](config.bat).
 
 **all the other required liraries can be found [here](all-libraries.txt)**
 
@@ -75,7 +74,7 @@ These libraries are needed and your game will **NOT** build without them!
 
 ## Debug Features
 
-With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/Project.xml), you unlock these debug features...
+With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](Project.xml), you unlock these debug features...
 - Press 3 to pause the game no matter what
 - Press T on the main menu to 100% the game
 - Always allowed to delete your progress even if you just reset
@@ -94,9 +93,9 @@ W.I Supports four built in data types:
 - Packer (Week 6 TXT Format)
 - Json Format (HASH and Array Supported)
 
-[Paths](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/source/util/Paths.hx) has a easy function to get frames based on a [Data Type](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/source/util/Paths.hx#L342).
+[Paths](source/util/Paths.hx) has a easy function to get frames based on a [Data Type](source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](master/source/util/Paths.hx#L342).
 
-Also [Character.hx](https://github.com/lunarcleint/Wednesdays-Infidelity/blob/master/source/gameObjects/Character.hx) has a data type paramter that can easily be edited.
+Also [Character.hx](source/gameObjects/Character.hx) has a data type paramter that can easily be edited.
 
 ![](art/docs/DataTypes.png)
 
