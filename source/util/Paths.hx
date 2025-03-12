@@ -163,7 +163,7 @@ class Paths
 		return getPath('data/$key.json', TEXT, library);
 	}
 // Runner filetype
-	inline static public function runner(key:String, ?library:String)
+    inline static public function runner(key:String, ?library:String)
 	{
 		return getPath('data/$key.runner', TEXT, library);
 	}
@@ -290,9 +290,9 @@ class Paths
 		return FlxAtlasFrames.fromTexturePackerJson(image(key, library), file('images/$key.json', library));
 	}
 
-	inline static public function getRUNNERAtlas(key:String, ?library:String)
+	inline static public function getRUNNERAtlas(key:String, ?library:String):FlxAtlasFrames
 		{
-			return FlxAtlasFrames.fromTexturePackerJson(image(key, library), file('images/$key.runner', library));
+			return FlxAtlasFrames.fromTexturePackerXml(image(key, library), file('images/$key.runner', library));
 		}
 	
 
