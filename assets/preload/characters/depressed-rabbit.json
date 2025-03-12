@@ -77,9 +77,9 @@
 			]
 		}
 	],
-	"dataType": "GENERICXML",
+	"dataType": "RUNNER",
 	"no_antialiasing": false,
-	"image": "characters/DepressedRabbit_Assets",
+	"image": "characters/RUNNER/DepressedRabbit_Assets",
 	"position": [
 		-300,
 		180
