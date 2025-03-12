@@ -88,7 +88,7 @@ With the tag `<define name="PRIVATE_BUILD"/> ` in the [Project.xml](Project.xml)
 
 ## Data Formats
 
-W.I Supports four built in data types:
+W.I Supports five built in data types:
 - Genric Xmls (Commonly Supported in game engines)
 - Sparrow V1-2 (Default FNF Format)
 - Packer (Week 6 TXT Format)
