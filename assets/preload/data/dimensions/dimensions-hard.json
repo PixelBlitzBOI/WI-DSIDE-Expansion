@@ -684,11 +684,6 @@
 						0
 					],
 					[
-						29166.6666666667,
-						1,
-						0
-					],
-					[
 						28000,
 						0,
 						0
@@ -749,8 +744,13 @@
 						0
 					],
 					[
-						29250,
+						29166.6666666667,
 						2,
+						0
+					],
+					[
+						29250,
+						1,
 						0
 					]
 				],
@@ -6598,6 +6598,16 @@
 				"mustHitSection": true,
 				"changeBPM": false,
 				"bpm": 180
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
 			},
 			{
 				"gfSection": false,
