@@ -11,16 +11,19 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
 
 ### Here's how a generic xml file is usually written:
 
-``
+```
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TextureAtlas imagePath="image.png">
 
-  <SubTexture name="image index0000" x="0" y="0" width="0" height="0"/>``
+  <SubTexture name="image index0000" x="0" y="0" width="0" height="0"/>
+```
 
 ### Now here's how a RUNNER file should be written:
 
-``<?runner version="1.0" encoding="UTF-8"?>
+```
+<?runner version="1.0" encoding="UTF-8"?>
 
 <TextureAtlas imagePath="image.png" width="0" height="0" scale="1" format="RGBA8888" atlasType="runnerfile">
 
@@ -29,7 +32,7 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
   <sprite n="Index0000" x="0" y="0" w="0" h="0" pX="0.5" pY="0.5" oX="0" oY="0" oW="0" oH="0"/>
 
   <??>
-  ``
+ ```
 
 RUNNER is pretty much read like a texture packer xml except because of it's modified writing, it's actually easier and more effective to load properly. An important factor is that `<??>` would be just ignored in a genericxml file but in here they are used as separators
 
