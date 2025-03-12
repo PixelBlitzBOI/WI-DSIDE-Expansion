@@ -290,9 +290,9 @@ class Paths
 		return FlxAtlasFrames.fromTexturePackerJson(image(key, library), file('images/$key.json', library));
 	}
 
-	inline static public function getRUNNERAtlas(key:String, ?library:String):FlxAtlasFrames
+	inline static public function getRunnerAtlas(key:String, ?library:String):FlxAtlasFrames
 		{
-			return FlxAtlasFrames.fromXMLAtlas(image(key, library), file('images/$key.runner', library));
+			return FlxAtlasFrames.fromTexturePackerXml(image(key, library), file('images/$key.runner', library));
 		}
 	
 
