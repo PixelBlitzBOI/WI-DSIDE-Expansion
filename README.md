@@ -93,7 +93,7 @@ W.I Supports four built in data types:
 - Sparrow V1-2 (Default FNF Format)
 - Packer (Week 6 TXT Format)
 - Json Format (HASH and Array Supported)
-- Runner (Self-rewritten ram-reducing xml)
+- Runner (Self-rewritten ram-reducing xml, check [RUNNER.md](RUNNER.md) for more information)
 
 [Paths](source/util/Paths.hx) has a easy function to get frames based on a [Data Type](source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](source/util/Paths.hx#L342).
 
