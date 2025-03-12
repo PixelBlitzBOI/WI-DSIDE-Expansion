@@ -600,7 +600,7 @@ class CharacterEditorState extends MusicBeatState
 		tab_group.add(dataDropDown);
 		tab_group.add(new FlxText(15, dataDropDown.y - 18, 0, 'Data Type:'));
 		tab_group.add(new FlxText(15, dataDropDown.y + 128, 0,
-			'GENERICXML: Basic XML most used in game engines\nSPARROW: The type adobe animate exports (FNF Default)\nPACKER: TXT File (Week 6)\nJSON: Json File that most programs can export (HASH AND ARRAY)\nRUNNER: Alternative for GENERICXML'));
+			'GENERICXML: Basic XML most used in game engines\nSPARROW: The type adobe animate exports (FNF Default)\nPACKER: TXT File (Week 6)\nJSON: Json File that most programs can export (HASH AND ARRAY)\nRUNNER: Self-rewritten alternative GENERICXML atlas (USED TO PREVENT CHAR 90 ERRORS AND CRASHES)'));
 		UI_characterbox.addGroup(tab_group);
 	}
 
