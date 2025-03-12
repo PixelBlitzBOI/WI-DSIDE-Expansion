@@ -101,6 +101,8 @@ Also [Character.hx](source/gameObjects/Character.hx) has a data type paramter th
 
 ![](art/docs/DataTypes.png)
 
+If you want to write Runner xml files, please dont copy stuff from [assets/shared/images/characters/RUNNER/DepressedRabbit_Assets.runner](assets/shared/images/characters/RUNNER/DepressedRabbit_Assets.runner), please follow the [proper guide](RUNNER.md#index-names)
+
 ****NOTE:****
 You have to click reload image for the data type to update
 Sometimes it will crash when you do that so you should just add to to the Json
