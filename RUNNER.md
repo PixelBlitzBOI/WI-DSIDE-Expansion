@@ -12,7 +12,6 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
 ### Here's how a generic xml file is usually written:
 
 ```
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TextureAtlas imagePath="image.png">
