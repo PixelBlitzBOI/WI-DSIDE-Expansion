@@ -292,7 +292,7 @@ class Paths
 
 	inline static public function getRUNNERAtlas(key:String, ?library:String):FlxAtlasFrames
 		{
-			return FlxAtlasFrames.fromRunner(image(key, library), file('images/$key.runner', library));
+			return FlxAtlasFrames.fromTexturePackerXml(image(key, library), file('images/$key.runner', library));
 		}
 	
 
