@@ -36,7 +36,7 @@ RUNNER is a slightly more complex, self-written and RAM reducing version of a Ge
 RUNNER is pretty much read like a texture packer xml except because of it's modified writing, it's actually easier and more effective to load properly. An important factor is that `<??>` would be just ignored in a genericxml file but in here they are used as separators
 
 ## How to manually write a RUNNER file
-### title of the file
+### Title of the file
 
 Every xml file starts like this
 
