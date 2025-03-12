@@ -4,7 +4,7 @@ For info on usage rights, please read the [license](LICENSE)!
 ## Documentation
 [Introduction to RUNNER](#introduction-to-runner)
 
-[How to manually write a RUNNER file](#how-to-write-a-runner-file)
+[How to manually write a RUNNER file](#how-to-manually-write-a-runner-file)
 
 ## Introduction to RUNNER
 RUNNER is a slightly more complex, self-written and RAM reducing version of a Generic Xml file. Codingwise, It's practically the same thing, it doesn't do anything different as it looks, but under the hood there are some differences that make it slightly superior.
