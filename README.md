@@ -23,6 +23,7 @@ Here's a list of new content added by WIDSE:
 - New Charting Events
 - Fixed Death screen (if your current character doesn't have a death anim, it will play the Retro BF death anim instead of the base game's original death anim.)
 - More funny stuff on PixelBlitzBOI's dev folder
+- Runner file atlas
 
 ### Oswald's Week content
 - Charted Eagerness (song by Sandi and fanmade full version by YourAverageAlligator, charted by PixelBlitzBOI)
@@ -92,6 +93,7 @@ W.I Supports four built in data types:
 - Sparrow V1-2 (Default FNF Format)
 - Packer (Week 6 TXT Format)
 - Json Format (HASH and Array Supported)
+- Runner (Self-rewritten ram-reducing xml)
 
 [Paths](source/util/Paths.hx) has a easy function to get frames based on a [Data Type](source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](source/util/Paths.hx#L342).
 
