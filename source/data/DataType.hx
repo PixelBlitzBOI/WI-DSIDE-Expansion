@@ -6,4 +6,5 @@ enum DataType
 	SPARROW;
 	PACKER;
 	JSON;
+	RUNNER;
 }
