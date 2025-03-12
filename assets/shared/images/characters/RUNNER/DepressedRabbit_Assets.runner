@@ -1,0 +1,35 @@
+<?runnerfile version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="DepressedRabbit_Assets.png" width="9954" height="1182" scale="1" format="RGBA8888">
+  <sprite n="Oswald Down0000" x="10" y="10" w="574" h="520" pX="0.5" pY="0.5" oX="84" oY="112" oW="819" oH="685"/>
+  <sprite n="Oswald Down0001" x="604" y="10" w="574" h="522" pX="0.5" pY="0.5" oX="84" oY="110" oW="819" oH="685"/>
+  <sprite n="Oswald Down0002" x="1198" y="10" w="575" h="524" pX="0.5" pY="0.5" oX="83" oY="108" oW="819" oH="685"/>
+  <sprite n="Oswald Down0003" x="1793" y="10" w="575" h="527" pX="0.5" pY="0.5" oX="83" oY="105" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0005" x="2388" y="10" w="576" h="544" pX="0.5" pY="0.5" oX="142" oY="88" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0006" x="2984" y="10" w="572" h="547" pX="0.5" pY="0.5" oX="142" oY="85" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0004" x="3576" y="10" w="566" h="550" pX="0.5" pY="0.5" oX="147" oY="82" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0007" x="4162" y="10" w="567" h="550" pX="0.5" pY="0.5" oX="144" oY="82" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0008" x="4749" y="10" w="558" h="554" pX="0.5" pY="0.5" oX="147" oY="78" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0003" x="5327" y="10" w="553" h="556" pX="0.5" pY="0.5" oX="152" oY="76" oW="819" oH="685"/>
+  <sprite n="Oswald Right0003" x="5900" y="10" w="570" h="557" pX="0.5" pY="0.5" oX="165" oY="75" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0009" x="6490" y="10" w="552" h="558" pX="0.5" pY="0.5" oX="149" oY="74" oW="819" oH="685"/>
+  <sprite n="Oswald Left0000" x="7062" y="10" w="578" h="558" pX="0.5" pY="0.5" oX="97" oY="74" oW="819" oH="685"/>
+  <sprite n="Oswald Right0002" x="7660" y="10" w="567" h="558" pX="0.5" pY="0.5" oX="168" oY="74" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0002" x="8247" y="10" w="539" h="559" pX="0.5" pY="0.5" oX="154" oY="73" oW="819" oH="685"/>
+  <sprite n="Oswald Left0001" x="8806" y="10" w="575" h="559" pX="0.5" pY="0.5" oX="100" oY="72" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0010" x="9401" y="10" w="543" h="560" pX="0.5" pY="0.5" oX="152" oY="72" oW="819" oH="685"/>
+  <sprite n="Oswald Right0001" x="10" y="550" w="563" h="560" pX="0.5" pY="0.5" oX="172" oY="72" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0001" x="593" y="552" w="534" h="561" pX="0.5" pY="0.5" oX="154" oY="71" oW="819" oH="685"/>
+  <sprite n="Oswald Left0002" x="1147" y="554" w="571" h="561" pX="0.5" pY="0.5" oX="104" oY="70" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0011" x="1738" y="557" w="535" h="562" pX="0.5" pY="0.5" oX="154" oY="70" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0012" x="2293" y="574" w="535" h="562" pX="0.5" pY="0.5" oX="155" oY="70" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0013" x="2848" y="577" w="626" h="562" pX="0.5" pY="0.5" oX="62" oY="70" oW="819" oH="685"/>
+  <sprite n="Oswald Right0000" x="3494" y="580" w="560" h="562" pX="0.5" pY="0.5" oX="175" oY="70" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0000" x="4074" y="580" w="533" h="563" pX="0.5" pY="0.5" oX="155" oY="69" oW="819" oH="685"/>
+  <sprite n="Oswald Left0003" x="4627" y="584" w="568" h="563" pX="0.5" pY="0.5" oX="107" oY="68" oW="819" oH="685"/>
+  <sprite n="Oswald Idle0014" x="5215" y="586" w="533" h="565" pX="0.5" pY="0.5" oX="155" oY="67" oW="819" oH="685"/>
+  <sprite n="Oswald Up0003" x="5768" y="587" w="499" h="580" pX="0.5" pY="0.5" oX="159" oY="52" oW="819" oH="685"/>
+  <sprite n="Oswald Up0002" x="6287" y="588" w="496" h="581" pX="0.5" pY="0.5" oX="162" oY="51" oW="819" oH="685"/>
+  <sprite n="Oswald Up0001" x="6803" y="588" w="494" h="583" pX="0.5" pY="0.5" oX="164" oY="49" oW="819" oH="685"/>
+  <sprite n="Oswald Up0000" x="7317" y="588" w="491" h="584" pX="0.5" pY="0.5" oX="167" oY="48" oW="819" oH="685"/>
+</TextureAtlas>
