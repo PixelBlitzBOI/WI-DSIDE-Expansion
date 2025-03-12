@@ -1,5 +1,5 @@
 ## Wednesday's Infidelity: D-Sides Expansion
-For info on usage rights, please read the [license](https://github.com/lunarcleint/Wednesdays-Infidelity-PART-2/blob/master/LICENSE)!
+For info on usage rights, please read the [license](LICENSE)!
 
 ![](art/thumbnail.png)
 
