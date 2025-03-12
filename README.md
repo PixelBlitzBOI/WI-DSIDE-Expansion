@@ -93,7 +93,7 @@ W.I Supports four built in data types:
 - Packer (Week 6 TXT Format)
 - Json Format (HASH and Array Supported)
 
-[Paths](source/util/Paths.hx) has a easy function to get frames based on a [Data Type](source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](master/source/util/Paths.hx#L342).
+[Paths](source/util/Paths.hx) has a easy function to get frames based on a [Data Type](source/data/DataType.hx) value. [getAtlasFromData(key:String, data:DataType, ?library:String)](source/util/Paths.hx#L342).
 
 Also [Character.hx](source/gameObjects/Character.hx) has a data type paramter that can easily be edited.
 
