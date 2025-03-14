@@ -40,7 +40,7 @@ function onStepHit()
 		}
 	}
 
-	if (curSection >= 33 && curSection <= 48 || curSection >= 82 && curSection <= 144)
+	if (curSection >= 32 && curSection <= 47 || curSection >= 81 && curSection <= 143)
 	{
 		if (curStep % 4 == 0)
 		{
@@ -60,11 +60,6 @@ function onStepHit()
 				}
 			 */
 		}
-	}
-
-	if (curStep == 1384 || curStep == 1308)
-	{
-		addCamZoom(0.2, 0.07);
 	}
 
 	switch (curStep)
@@ -102,13 +97,13 @@ function onStepHit()
 			});
 			PlayState.followChars = true;
 			PlayState.removeCinematicBars(0.5);
-		case 792:
+		case 776:
 			PlayState.curCamera.bfZoom = 1.3;
 
 			PlayState.curCamera.dadZoom = 1.3;
 
 			PlayState.addCinematicBars(1);
-		case 1048:
+		case 1032:
 			PlayState.followChars = false;
 			PlayState.isCameraOnForcedPos = true;
 			PlayState.camZooming = false;
@@ -122,7 +117,7 @@ function onStepHit()
 			FlxTween.tween(PlayState.cutsceneText, {alpha: 1}, 0.2);
 
 			PlayState.cutsceneText.text = "In the end, we all..";
-		case 1072:
+		case 1056:
 			PlayState.cutsceneText.setFormat(Paths.font("vcr.ttf"), 40, fromRGB(214, 32, 32), CENTER, FlxTextBorderStyle.OUTLINE, fromRGB(0, 0, 0));
 			PlayState.cutsceneText.text = "DIE.";
 			PlayState.cutsceneText.size = 36;
@@ -144,20 +139,20 @@ function onStepHit()
 					});
 				}
 			});
-		case 1080:
+		case 1064:
 			PlayState.cutsceneText.setFormat(Paths.font("vcr.ttf"), 32, fromRGB(255, 255, 255), CENTER, FlxTextBorderStyle.OUTLINE, fromRGB(0, 0, 0));
 			PlayState.cutsceneText.text = "Why should I, even try.";
 			PlayState.camFollow.set(PlayState.dad.getGraphicMidpoint().x + 170, PlayState.dad.getGraphicMidpoint().y);
-		case 1110:
+		case 1096:
 			PlayState.cutsceneText.text = "Gun in hand, my life shall end..";
 			PlayState.cutsceneText.applyMarkup("Gun in hand, $my life shall end..$",
 				[new FlxTextFormatMarkerPair(new FlxTextFormat(fromRGB(214, 32, 32)), "$")]);
 			PlayState.camFollow.set(PlayState.dad.getGraphicMidpoint().x - 70, PlayState.dad.getGraphicMidpoint().y);
-		case 1140:
+		case 1124:
 			PlayState.cutsceneText.setFormat(Paths.font("vcr.ttf"), 32, fromRGB(214, 32, 32), CENTER, FlxTextBorderStyle.OUTLINE, fromRGB(0, 0, 0));
 			PlayState.cutsceneText.text = "MY SUFFERING SHALL BE KNOWN, FRIEND!";
 			PlayState.camFollow.set(PlayState.dad.getGraphicMidpoint().x + 170, PlayState.dad.getGraphicMidpoint().y - 10);
-		case 1168:
+		case 1152:
 			FlxTween.tween(PlayState.cutsceneText, {alpha: 0}, 0.5, {
 				onComplete: function(twn)
 				{
@@ -178,18 +173,18 @@ function onStepHit()
 			PlayState.timeBarBG.alpha = 0;
 			PlayState.timeBar.alpha = 0;
 			PlayState.timeTxt.alpha = 0;
-		case 1176:
+		case 1160:
 			PlayState.cutsceneText.text = "";
-		case 1270:
+		case 1254:
 			PlayState.followChars = false;
 			PlayState.isCameraOnForcedPos = true;
 			PlayState.camZooming = false;
 			PlayState.camFollow.set(PlayState.dad.getGraphicMidpoint().x + 70, PlayState.dad.getGraphicMidpoint().y);
-		case 1297:
+		case 1281:
 			PlayState.cutsceneText.setFormat(Paths.font("vcr.ttf"), 46, fromRGB(214, 32, 32), CENTER, FlxTextBorderStyle.OUTLINE, fromRGB(0, 0, 0));
 			PlayState.cutsceneText.alpha = 1;
 			PlayState.cutsceneText.text = "RAAAH!";
-		case 1304:
+		case 1288:
 			PlayState.cutsceneText.setFormat(Paths.font("vcr.ttf"), 32, fromRGB(255, 255, 255), CENTER, FlxTextBorderStyle.OUTLINE, fromRGB(0, 0, 0));
 			PlayState.cutsceneText.text = "";
 
@@ -209,22 +204,22 @@ function onStepHit()
 			PlayState.curCamera.dadZoom = 0.8;
 
 			PlayState.removeCinematicBars(0.5);
-		case 1808:
+		case 1792:
 			PlayState.camFollow.set(PlayState.dad.getGraphicMidpoint().x + 70, PlayState.dad.getGraphicMidpoint().y);
 			PlayState.followChars = false;
 			PlayState.isCameraOnForcedPos = true;
 			PlayState.camZooming = false;
-		case 1816:
+		case 1800:
 			PlayState.followChars = true;
 			PlayState.camZooming = true;
 
-		case 2072:
+		case 2056:
 			PlayState.addCinematicBars(1);
 
 			PlayState.curCamera.bfZoom += 0.2;
 
 			PlayState.curCamera.dadZoom += 0.2;
-		case 2328:
+		case 2312:
 			PlayState.removeCinematicBars(1);
 
 			PlayState.curCamera.bfZoom -= 0.2;
