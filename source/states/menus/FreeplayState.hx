@@ -165,13 +165,13 @@ class FreeplayState extends MusicBeatState
 							addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 
 					case 'Life On Hiatus':
-						if (!Progression.gotoswaldbad)
+						if (!Progression.badEndingOswald)
 							continue;
 						else
 							addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 
 					case 'Tristis Fabula':
-						if (!Progression.gotoswaldgood)
+						if (!Progression.goodEndingOswald)
 							continue;
 						else
 							addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
