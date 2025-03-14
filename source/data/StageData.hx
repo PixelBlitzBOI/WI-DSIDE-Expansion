@@ -55,7 +55,7 @@ class StageData
 				case 'thorns':
 					stage = 'schoolEvil';
 				case 'megrims-gusdegreat-remix'| 'megrims gusdegreat remix' | 'despair' | 'despondency':
-					stage = 'spooky';
+					stage = 'fencecover';
 				default:
 					stage = 'stage';
 			}
