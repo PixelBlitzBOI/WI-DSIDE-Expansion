@@ -61,13 +61,13 @@ class CreditsState extends MusicBeatState
 			[
 				"PixelBlitzBOI",
 				"pixelblitzboi",
-				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, and Dimensions musician.",
+				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, Dimensions, Untold Loneliness V2 and Despondency V2 musician. Life On Hiatus vocal replacement.",
 				"https://youtube.com/@PixelBlitzBOI",
 				"4d3942"
 			],
 			[
 				'Richilix',
-				"none",
+				"richilix",
 				'Main sprite artist and animator of the mod. Charter of Despair, Despondency, Eternity, and Life on Hiatus.',
 				'https://www.youtube.com/@Richilix_',
 				'42394d'
@@ -81,21 +81,28 @@ class CreditsState extends MusicBeatState
 			],
 			[
 				'Funtime Nero',
-				"none",
+				"nero",
 				'Despair, and Eternity musician.',
 				'https://www.youtube.com/@FuntimeNero',
 				'692962'
 			],
 			[
 				'doge1smlg',
-				"none",
+				"doge1smlg",
 				'Vesper Musician.',
 				'https://www.youtube.com/@doge1smlg',
 				'593f36'
 			],
 			[
 				'Average Alligator',
-				"none",
+				"alligator",
+				'Eagerness full version musician.',
+				'https://www.youtube.com/@AverageAlligator',
+				'515936'
+			],
+			[
+				'Reaper',
+				"reaper",
 				'Eagerness full version musician.',
 				'https://www.youtube.com/@AverageAlligator',
 				'515936'
@@ -122,6 +129,13 @@ class CreditsState extends MusicBeatState
 				'Original Megrims concept art.',
 				'https://twitter.com/MarcoJurez19',
 				"f5d482"
+			],
+			[
+				"GALSG",
+				'mel',
+				"Mel's chromatic scale (used in a cover located in Pixel's dev folder).",
+				'',
+				"eaeaea"
 			],
 			[
 				'Jhaix',
