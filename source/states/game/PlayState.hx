@@ -1412,7 +1412,7 @@ class PlayState extends MusicBeatState
 					distort.shader.working.value = [false];
 
 					addShaderToCamera('camGame', distort);
-				case 'dejection', 'megrims', 'despondency':
+				case 'dejection', 'megrims', 'despondency', 'megrims-remix', 'megrims-gusdegreat-remix':
 					distort = new util.Shaders.DistortionEffect(1, 1);
 
 					distort.shader.working.value = [false];
