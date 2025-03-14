@@ -386,6 +386,14 @@ class PlayState extends MusicBeatState
 			dadZoom: 0.8, // mushitsection == false
 			gfZoom: 0.65 // gfsection == true
 		},
+		"fencecover" => {
+			dadPos: [420.95, 513], // xx
+			bfPos: [952.9, 550], // xx2
+			gfPos: [952.9, 200], // xx3
+			bfZoom: 1, // mushitsection == true
+			dadZoom: 0.8, // mushitsection == false
+			gfZoom: 0.65 // gfsection == true
+		},
 		"stage" => {
 			dadPos: [420.95, 513],
 			bfPos: [952.95, 513],
@@ -696,11 +704,18 @@ class PlayState extends MusicBeatState
 				bg.antialiasing = ClientPrefs.globalAntialiasing;
 				bg.updateHitbox();
 				add(bg);
+
 			case 'fence': // Oswald Song
 				var bg:BGSprite = new BGSprite('backgrounds/BG_OSWALD', -600, -300);
 				bg.antialiasing = ClientPrefs.globalAntialiasing;
 				bg.updateHitbox();
 				add(bg);
+
+			case 'fencecover': // Oswald Song
+			var bg:BGSprite = new BGSprite('backgrounds/BG_OSWALDCOVER', -600, -300);
+			bg.antialiasing = ClientPrefs.globalAntialiasing;
+	     	bg.updateHitbox();
+			add(bg);
 
 			case 'stage':
                 platformL = new BGSprite('backgrounds/dimensions/Lplatform', -450, 450);
@@ -1037,6 +1052,9 @@ class PlayState extends MusicBeatState
 				"shared:assets/shared/images/SATAN AMONGUS";
 
 			case "fence":
+				"shared:assets/shared/images/SATAN DSIDES";
+
+			case "fencecover":
 				"shared:assets/shared/images/SATAN DSIDES";
 
 			default:
@@ -1637,7 +1655,7 @@ class PlayState extends MusicBeatState
 			// head bopping for bg characters on Mall
 			switch (curStage)
 			{
-				case 'vecindario' | 'bobux' | 'reefer' | 'inferno' | 'toyland' | 'chedder' | 'vecindariocover' | 'hell' | 'fence' | 'jankacStage' | 'stage': // make sure to also add the stage name here too
+				case 'vecindario' | 'bobux' | 'reefer' | 'inferno' | 'toyland' | 'chedder' | 'vecindariocover' | 'hell' | 'fence' | 'fencecover' | 'jankacStage' | 'stage': // make sure to also add the stage name here too
 					grain.alpha = 1;
 					grain.animation.play('idle');
 
