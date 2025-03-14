@@ -5318,33 +5318,33 @@
 						0
 					],
 					[
+						151950,
+						0,
+						0
+					],
+					[
 						151800,
 						0,
 						0
 					],
 					[
 						151875,
-						1,
-						0
-					],
-					[
-						151950,
-						0,
+						2,
 						0
 					],
 					[
 						152025,
-						1,
+						2,
 						0
 					],
 					[
 						152100,
-						2,
+						1,
 						0
 					],
 					[
 						152250,
-						2,
+						1,
 						0
 					]
 				],
@@ -5821,6 +5821,16 @@
 						164250,
 						0,
 						0
+					],
+					[
+						163200,
+						5,
+						225
+					],
+					[
+						163500,
+						4,
+						225
 					]
 				],
 				"bpm": 200,
@@ -6399,6 +6409,16 @@
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
 			},
 			{
 				"gfSection": false,
