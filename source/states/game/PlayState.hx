@@ -716,10 +716,8 @@ class PlayState extends MusicBeatState
 			bg.antialiasing = ClientPrefs.globalAntialiasing;
 	     	bg.updateHitbox();
 
-			 BF_X:Float = 1550;
-			 BF_Y:Float = 100;
-			 DAD_X:Float = 100;
-			 DAD_Y:Float = 100;
+			 BF_X = 1550;
+
 			add(bg);
 
 			case 'stage':
