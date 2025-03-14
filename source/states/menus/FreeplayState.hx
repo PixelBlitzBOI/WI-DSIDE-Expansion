@@ -36,7 +36,6 @@ import util.Discord.DiscordClient;
 #if MODS_ALLOWED
 import sys.FileSystem;
 #end
-
 class FreeplayState extends MusicBeatState
 {
 	var songs:Array<SongMetadata> = [];
@@ -631,7 +630,7 @@ class FreeplayState extends MusicBeatState
 			{
 				FlxTween.globalManager.cancelTweensOf(diffText);
 	
-				FlxTween.color(diffText, 0.5, diffText.color, '0xFF4f3f57');
+				FlxTween.color(diffText, 0.5, diffText.color, FlxColor.MAGENTA);
 			}
 		else if (voidSongs.contains(songs[curSelected].songName))
 		{
@@ -643,7 +642,7 @@ class FreeplayState extends MusicBeatState
 		{
 			FlxTween.globalManager.cancelTweensOf(diffText);
 
-            FlxTween.color(diffText, 0.5, diffText.color, FlxColor.MAGENTA);
+            FlxTween.color(diffText, 0.5, diffText.color, FlxColor.GREEN);
 		}
 		else if (diffText.color != FlxColor.GRAY)
 		{
