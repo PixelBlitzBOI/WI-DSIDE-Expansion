@@ -631,7 +631,7 @@ class FreeplayState extends MusicBeatState
 			{
 				FlxTween.globalManager.cancelTweensOf(diffText);
 	
-				FlxTween.color(diffText, 0.5, diffText.color, FlxColor.0xFF4f3f57);
+				FlxTween.color(diffText, 0.5, diffText.color, '0xFF4f3f57');
 			}
 		else if (voidSongs.contains(songs[curSelected].songName))
 		{
