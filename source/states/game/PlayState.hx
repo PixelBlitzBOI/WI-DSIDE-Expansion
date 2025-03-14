@@ -390,8 +390,8 @@ class PlayState extends MusicBeatState
 			dadPos: [420.95, 513], // xx
 			bfPos: [952.9, 550], // xx2
 			gfPos: [952.9, 200], // xx3
-			bfZoom: 1, // mushitsection == true
-			dadZoom: 0.8, // mushitsection == false
+			bfZoom: 0.9, // mushitsection == true
+			dadZoom: 0.9, // mushitsection == false
 			gfZoom: 0.65 // gfsection == true
 		},
 		"stage" => {
@@ -712,9 +712,14 @@ class PlayState extends MusicBeatState
 				add(bg);
 
 			case 'fencecover': // Oswald Song
-			var bg:BGSprite = new BGSprite('backgrounds/BG_OSWALDCOVER', -600, -300);
+			var bg:BGSprite = new BGSprite('backgrounds/BG_OSWALDCOVER', -1000, -700);
 			bg.antialiasing = ClientPrefs.globalAntialiasing;
 	     	bg.updateHitbox();
+
+			 BF_X:Float = 1550;
+			 BF_Y:Float = 100;
+			 DAD_X:Float = 100;
+			 DAD_Y:Float = 100;
 			add(bg);
 
 			case 'stage':
@@ -974,7 +979,7 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{ // did another switch for stages here just to make sure it layers properly and it looks clean!! :P
 			case 'vecindario' | 'chedder' | 'reefer' | 'bobux' | 'toyland' | 'inferno' | 'susNightmare' | 'vecindariocover' | 'hell' | 'fence' |
-				'jankacStage' | 'vesania' | 'stage': // add stage name here to give it the cool static effect
+				'jankacStage' | 'vesania' | 'stage' | 'fencecover': // add stage name here to give it the cool static effect
 				var daStatic:FlxSprite = new FlxSprite(0, 0);
 				daStatic.frames = Paths.getSparrowAtlas('daSTAT', 'shared');
 				daStatic.setGraphicSize(FlxG.width, FlxG.height);
