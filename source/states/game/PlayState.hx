@@ -2601,7 +2601,7 @@ class PlayState extends MusicBeatState
 
 		if (controls.PAUSE && canPause && startedCountdown && !inCutscene)
 		{
-			if (isStoryMode)
+			if (isStoryMode && curSong != 'Life On Hiatus')
 				diablo();
 			else if (isStoryMode && curSong == 'Life On Hiatus')
 				waton();	
