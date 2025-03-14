@@ -103,8 +103,8 @@ class CreditsState extends MusicBeatState
 			[
 				'Reaper',
 				"reaper",
-				'Eagerness full version musician.',
-				'https://www.youtube.com/@AverageAlligator',
+				'Life On Hiatus musician.',
+				'https://www.youtube.com/@reaperfnf3189',
 				'515936'
 			],
 			[''],
