@@ -5420,7 +5420,7 @@
 		"song": "Despondency",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "fence",
+		"stage": "fencecover",
 		"bpm": 140,
 		"speed": 2.6
 	}
