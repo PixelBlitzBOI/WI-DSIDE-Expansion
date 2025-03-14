@@ -83,7 +83,8 @@ class FreeplayState extends MusicBeatState
 	var combos:Null<Int>;
 	var keysPressed:Map<Array<FlxKey>, Array<FlxKey>> = [];
 
-	var dsidesSongs:Array<String> = ["Untold Loneliness", "Megrims", "Eagerness", "Despair", "Despondency", "Life On Hiatus", "Vesper", "Tristis Fabula", "Eternity"];
+	var dsidesSongs:Array<String> = ["Untold Loneliness", "Megrims", "Eagerness", "Life On Hiatus", "Tristis Fabula"];
+	var altdsidesSongs:Array<String> = ["Despondency", "Despair", "Vesper", "Eternity"];
 	var encoreSongs:Array<String> = ["Too Slow"];
 	var voidSongs:Array<String> = ["Dimensions"];
 	var remixSongs:Array<String> = ["Megrims Remix"];
@@ -575,6 +576,8 @@ class FreeplayState extends MusicBeatState
 			diff = "ENCORE";
 		else if (dsidesSongs.contains(songs[curSelected].songName))
 			diff = "DSIDE";
+		else if (altdsidesSongs.contains(songs[curSelected].songName))
+			diff = "ALT DSIDE";
 		else if (voidSongs.contains(songs[curSelected].songName))
 			diff = "VOID";
 		else if (remixSongs.contains(songs[curSelected].songName))
@@ -624,6 +627,12 @@ class FreeplayState extends MusicBeatState
 
 			FlxTween.color(diffText, 0.5, diffText.color, FlxColor.PURPLE);
 		}
+		else if (altdsidesSongs.contains(songs[curSelected].songName))
+			{
+				FlxTween.globalManager.cancelTweensOf(diffText);
+	
+				FlxTween.color(diffText, 0.5, diffText.color, FlxColor.0xF4f3f57);
+			}
 		else if (voidSongs.contains(songs[curSelected].songName))
 		{
 			FlxTween.globalManager.cancelTweensOf(diffText);
