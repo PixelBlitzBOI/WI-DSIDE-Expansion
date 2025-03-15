@@ -74,7 +74,7 @@ Or run the [setup bat](config.bat).
 
 These libraries are needed and your game will **NOT** build without them!
 
-**To fix Dimensions crashing whencompiling the game, put [these files](https://drive.google.com/file/d/1mnpMqY3RPJsvPuQZw2gcgYBIo6W1ESKB/view?usp=sharing) in assets/shared/backgrounds/dimensions/**
+**To fix Dimensions crashing when compiling the game, put [these files](https://drive.google.com/file/d/1mnpMqY3RPJsvPuQZw2gcgYBIo6W1ESKB/view?usp=sharing) in assets/shared/backgrounds/dimensions/**
 
 ## Debug Features
 
