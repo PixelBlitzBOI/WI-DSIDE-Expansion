@@ -82,7 +82,7 @@ class FreeplayState extends MusicBeatState
 	var combos:Null<Int>;
 	var keysPressed:Map<Array<FlxKey>, Array<FlxKey>> = [];
 
-	var dsidesSongs:Array<String> = ["Untold Loneliness", "Megrims", "Eagerness", "Life On Hiatus", "Tristis Fabula"];
+	var dsidesSongs:Array<String> = ["Untold Loneliness", "Megrims", "Eagerness", "Life On Hiatus", "Tristis Fabula", "Insaniam"];
 	var altdsidesSongs:Array<String> = ["Despondency", "Despair", "Vesper", "Eternity"];
 	var encoreSongs:Array<String> = ["Too Slow"];
 	var voidSongs:Array<String> = ["Dimensions"];
