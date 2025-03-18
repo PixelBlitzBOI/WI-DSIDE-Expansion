@@ -86,7 +86,7 @@ class FreeplayState extends MusicBeatState
 	var altdsidesSongs:Array<String> = ["Despondency", "Despair", "Vesper", "Eternity"];
 	var encoreSongs:Array<String> = ["Too Slow"];
 	var voidSongs:Array<String> = ["Dimensions"];
-	var remixSongs:Array<String> = ["Megrims Remix"];
+	var remixSongs:Array<String> = ["Eagerness Remix", "Megrims Remix"];
 
 	var selectedSomethin:Bool = false;
 
