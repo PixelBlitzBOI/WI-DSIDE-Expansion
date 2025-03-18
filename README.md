@@ -35,7 +35,9 @@ Here's a list of new content added by WIDSE:
 (art for the Megrims and losing Eagerness/Despair icons are creditless)
 
 ### Oswald Tribute Week content
-- Charted Insaniam (song and charted by PixelBlitzBOI)
+- Charted D-Sides Too Slow (song by philiplol, charted by PixelBlitzBOI)
+- Charted Insaniam (song by PixelBlitzBOI)
+- Charted Eagerness Remix (song by AverageAlligator, charted by PixelBlitzBOI)
 - Charted Megrims Remix (original remix by GusDeGreat, modified and charted by PixelBlitzBOI)
 - Charted Despair (song by Funtime Nero, charted by richilix)
 - Charted Despondency remix (song by Adam/Madame McHummus, remix by PixelBlitzBOI)
