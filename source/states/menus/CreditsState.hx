@@ -61,7 +61,7 @@ class CreditsState extends MusicBeatState
 			[
 				"PixelBlitzBOI",
 				"pixelblitzboi",
-				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, Dimensions, Untold Loneliness V2 and Despondency V2 musician. Life On Hiatus vocal replacement.",
+				"Creator, programer, artist, and main charter of the mod. Drew and animated Oswald's sprites used in Megrims. Tristis Fabula, Dimensions, Misery, Insaniam, Untold Loneliness V2 and Despondency V2 musician. Life On Hiatus vocal replacement.",
 				"https://youtube.com/@PixelBlitzBOI",
 				"4d3942"
 			],
@@ -96,7 +96,7 @@ class CreditsState extends MusicBeatState
 			[
 				'Average Alligator',
 				"alligator",
-				'Eagerness full version musician.',
+				'Eagerness full version musician. Eagerness Remix musician.',
 				'https://www.youtube.com/@AverageAlligator',
 				'515936'
 			],
@@ -136,6 +136,20 @@ class CreditsState extends MusicBeatState
 				"Mel's chromatic scale (used in a cover located in Pixel's dev folder).",
 				'',
 				"eaeaea"
+			],
+			[
+				'therealbluebirdieee',
+				'bluebirdieee',
+				'Co-musician of Misery.',
+				'',
+				'e2d4ce'
+			],
+			[
+				'philiplol',
+				'none',
+				'Musician of D-Sides Too Slow.',
+				'',
+				'e2d4ce'
 			],
 			[
 				'Jhaix',
