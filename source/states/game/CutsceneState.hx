@@ -93,6 +93,10 @@ class CutsceneState extends MusicBeatState // PlayState is alreadly laggy enough
 					video = "ongfr";
 					skippable = false;
 					focus = false;
+				case 'dimensions':
+					video = "dimensions core";
+					skippable = false;
+					focus = false;
 			}
 		}
 
