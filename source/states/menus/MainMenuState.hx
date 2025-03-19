@@ -161,6 +161,20 @@ class MainMenuState extends MusicBeatState
 					Sys.exit(0);
 				}));
 			},
+			[FlxKey.D, FlxKey.I, FlxKey.M, FlxKey.E, FlxKey.N, FlxKey.S, FlxKey.I, FlxKey.O, FlxKey.N, FlxKey.S] => function()
+				{
+					selectedSomethin = true;
+	
+					FlxTransitionableState.skipNextTransIn = true;
+					FlxTransitionableState.skipNextTransOut = true;
+	
+					stopSound();
+	
+					MusicBeatState.switchState(new CutsceneState("dimensions", false, function()
+					{
+						Sys.exit(0);
+					}));
+				},
 		];
 
 		Paths.clearStoredMemory();
